@@ -1,0 +1,49 @@
+# Points administratifs à connaître dans tous les cas
+
+## Installation en surimposition
+
+A part quelques cas très précis (zones protégées...), la mairie ne peut s'opposer à l'installation de panneaux solaires en sur-imposition.
+L'[Arrêté du 19 décembre 2014 relatif aux caractéristiques des systèmes de production d'énergie à partir de sources renouvelables mentionnés à l'article R. 111-50 du code de l'urbanisme](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029954131) indique :
+
+> Les autorisations d'urbanisme ne peuvent ainsi s'opposer à l'utilisation d'équipements qui favorisent
+> la performance environnementale des constructions, notamment lorsqu'ils sont renouvelables ou qu'ils
+> permettent d'éviter l'émission de gaz à effet de serre.
+
+## Avis des Architectes des Batiments de France (ABF)
+
+Si votre installation n'est pas directement visible depuis un monument historique (pas inter-visibilité) ou non visible en même temps (non-covisibilité), l'[avis des Archites des Batiments de France est facultatifs](https://www.senat.fr/questions/base/2023/qSEQ230305721.html).
+
+Toutefois, il y a de grande chance pour que la mairie où se trouve le projet demande quand même l'avis des ABF.
+
+## Déclaration préalable de travaux
+
+Attention à ce que vous lisez sur internet, aussi bien sur des sites d'information que sur les sites de revendeur ou fabricant.
+
+Que vous les posiez ou fixiez sur le toit ou en face de votre habitation, il vous faudra faire une déclaration préalable de travaux car vous modifiez l'[aspect de l'habitation](https://www.ecologie.gouv.fr/faut-il-autorisation-durbanisme-poser-des-panneaux-solaires-sur-toit).
+
+La **pose** consiste à mettre un panneau solaire et le lester avec du poids pour éviter son envole. Il est déplaçable sans outil.
+
+La **fixation** consiste à mettre un panneau solaire avec des mécanismes qui le lie avec un bâti pour l'empêcher de s'envoler. Il faut des outils pour le déplacer.
+
+Pour ce qui est de l'installation au sol vous pouvez consulter le **Code de l'urbanisme**, [Article R*421-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034355439).
+
+En synthèse.
+
+Cas général :
+
+* Inférieure à 3KW et hauteur inférieure à 1.80m: dispensée de formalité.
+* Inférieure à 3KW et hauteur supérieure à 1.80m : déclaration préalable de travaux.
+* Jusqu'à 1 000KW: déclaration préalable de travaux.
+
+Zone protégé :
+
+* Inférieure à 3kW: déclaration préalable de travaux.
+* Supérieure à 3kW: permis de construire 
+
+Même exonérés d'autorisation, vos panneaux solaires sont considérés comme de la surface taxable, et implique le paiement d'une taxe d'aménagement.
+
+# CACSI: Convention d'Autoconsommation Sans Injection
+
+Cette convention est signée avec Enedis. Même s'il y a la notion **sans injection**, le **Code de l'énergie**, **Chapitre V : L'autoconsommation**, **Article L315-5** indique que dans le cadre d'une autoconsommation, il est possible de réinjecter gratuitement de l'énergie dans le réseau.
+
+La limite de la réinjection est fixée par décret et est actuellement (2024) à 3kW.
