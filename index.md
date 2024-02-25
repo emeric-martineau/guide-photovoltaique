@@ -1,3 +1,378 @@
+* Introduction
+  * Où trouver la dernière version de ce document
+  * Licence
+* Points administratifs à connaître dans tous les cas
+  * Installation en surimposition
+  * Avis des Architectes des Batiments de France (ABF)
+  * Déclaration préalable de travaux
+* CACSI: Convention d'Autoconsommation Sans Injection
+* Assurance
+* Comment la production solaire fonctionne ?
+  * Fonctionnement des panneaux solaires
+    * Diodes by pass
+  * Onduleur central et micro-onduleur
+* Bien définir son projet
+* Mon installation solaire par un professionnel
+  * Se faire accompagner
+    * France Renov'
+    * Associations de consommateurs
+  * Aide de l'Etat
+  * Revente du surplus de production
+  * Consommation du surplus de production
+  * Calcul de l'amortissement
+  * Lire un devis
+    * Exemple devis 1
+    * Exemple devis 2
+* Kit photovoltaïque
+* Réaliser soi même une installation
+  * Normes
+    * NF C-15 100
+    * UTE C-15 712
+  * Rappel des bases électriques
+    * Qu'est-ce que l'électricité ?
+    * Alternatif ou continu ?
+    * Le courant
+    * La tension
+    * Est-ce la tension ou le courant qui est le plus dangereux ?
+    * Tension de sécurité
+    * Neutre, phase, terre
+    * Produisons de l'électricité en toute sécurité
+    * Monophasé et triphasé
+  * Étude de cas
+    * Étude du solaire et de sa direction
+    * Remplir une demande préalable de travaux
+     * Annexe DP1
+     * Annexe DP4
+     * Annexe DP6
+     * Annexe DP7
+     * Annexe DP8
+    * Remplir la demande Consuel
+     * Étiquetage
+    * Remplir une demande CACSI (Convention d'Autoconsommation Sans Injection)
+  * Consommation du surplus de production
+
+# Introduction
+
+Lorsque j'ai voulu me lancer dans le photovoltaïque, je ne trouvais pas par quoi commencer.
+J'ai eu la chance de rencontrer des gens qui avaient fait l'installation par eux même, toutefois, il me restait encore de nombreuses questions.
+
+Par ce guide, j'ai voulu essayer de faire le guide que j'aurai aimé avoir à ce moment là. 
+Un guide qui explique de façon générale comment fonctionne le photovoltaïque mais aussi de façon beaucoup plus poussé car j'aime comprendre comment fonctionnent les choses.
+
+C'est un guide qui a pour but de donner quelques clefs ou directions pour lancer votre projet.
+Il a fallu faire des choix tant pour faciliter les explications que pour amener le lecteur progressivement dans le sujet.
+
+J'ai donc pris le parti d'orienter la présentation dans le cas d'un propriétaire de maison, dans une assez grande ville.
+De ce fait, j'ai laissé de côté le système de batteries ainsi l'autonomie totale.
+J'ai aussi fait le choix de présenter la solution la plus simple à mettre en œuvre, celle avec micro-onduleur car pour une première installation, il y a déjà beaucoup à apprendre et comprendre.
+
+Aussi, après lecture de ce guide, il vous faudra certainement creuser le sujet sur des forums comme le [Forum photovoltaïque](https://forum-photovoltaique.fr).
+
+## Où trouver la dernière version de ce document
+
+Vous pouvez télécharger la dernière version de ce document à l'adresse suivante https://github.com/emeric-martineau/guide-photovoltaique/releases
+
+## Licence
+
+Ce document est licencié sous Attribution-NonCommercial-ShareAlike 4.0 International © 2024 by Emeric MARTINEAU.
+
+Vous pouvez avoir une copie de cette licence sur http://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+Vous êtes autorisé à :
+ * Partager — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats
+ * Adapter — remixer, transformer et créer à partir du matériel
+ * L'Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.
+
+Selon les conditions suivantes :
+ * Attribution — Vous devez créditer l'œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées à l'œuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l'Offrant vous soutient ou soutient la façon dont vous avez utilisé son œuvre.
+ * Pas d'Utilisation Commerciale — Vous n'êtes pas autorisé à faire un usage commercial de cette œuvre, tout ou partie du matériel la composant.
+ * Partage dans les Mêmes Conditions — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'œuvre originale, vous devez diffuser l'œuvre modifiée dans les même conditions, c'est à dire avec la même licence avec laquelle l'œuvre originale a été diffusée.
+ * Pas de restrictions complémentaires — Vous n'êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l'œuvre dans les conditions décrites par la licence.
+
+# Points administratifs à connaître dans tous les cas
+
+## Installation en surimposition
+
+A part quelques cas très précis (zones protégées...), la mairie ne peut s'opposer à l'installation de panneaux solaires en sur-imposition.
+L'[Arrêté du 19 décembre 2014 relatif aux caractéristiques des systèmes de production d'énergie à partir de sources renouvelables mentionnés à l'article R. 111-50 du code de l'urbanisme](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029954131) indique :
+
+> Les autorisations d'urbanisme ne peuvent ainsi s'opposer à l'utilisation d'équipements qui favorisent
+> la performance environnementale des constructions, notamment lorsqu'ils sont renouvelables ou qu'ils
+> permettent d'éviter l'émission de gaz à effet de serre.
+
+## Avis des Architectes des Batiments de France (ABF)
+
+Si votre installation n'est pas directement visible depuis un monument historique (pas inter-visibilité) ou non visible en même temps (non-covisibilité), l'[avis des Archites des Batiments de France est facultatifs](https://www.senat.fr/questions/base/2023/qSEQ230305721.html).
+
+Toutefois, il y a de grande chance pour que la mairie où se trouve le projet demande quand même l'avis des ABF.
+
+## Déclaration préalable de travaux
+
+Attention à ce que vous lisez sur internet, aussi bien sur des sites d'information que sur les sites de revendeur ou fabricant.
+
+Que vous les posiez ou fixiez sur le toit ou en face de votre habitation, il vous faudra faire une déclaration préalable de travaux car vous modifiez l'[aspect de l'habitation](https://www.ecologie.gouv.fr/faut-il-autorisation-durbanisme-poser-des-panneaux-solaires-sur-toit).
+
+La **pose** consiste à mettre un panneau solaire et le lester avec du poids pour éviter son envole. Il est déplaçable sans outil.
+
+La **fixation** consiste à mettre un panneau solaire avec des mécanismes qui le lie avec un bâti pour l'empêcher de s'envoler. Il faut des outils pour le déplacer.
+
+Pour ce qui est de l'installation au sol vous pouvez consulter le **Code de l'urbanisme**, [Article R*421-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034355439).
+
+En synthèse.
+
+Cas général :
+
+* Inférieure à 3KW et hauteur inférieure à 1.80m: dispensée de formalité.
+* Inférieure à 3KW et hauteur supérieure à 1.80m : déclaration préalable de travaux.
+* Jusqu'à 1 000KW: déclaration préalable de travaux.
+
+Zone protégé :
+
+* Inférieure à 3kW: déclaration préalable de travaux.
+* Supérieure à 3kW: permis de construire 
+
+Même exonérés d'autorisation, vos panneaux solaires sont considérés comme de la surface taxable, et implique le paiement d'une taxe d'aménagement.
+
+# CACSI: Convention d'Autoconsommation Sans Injection
+
+Cette convention est signée avec Enedis. Même s'il y a la notion **sans injection**, le **Code de l'énergie**, **Chapitre V : L'autoconsommation**, **Article L315-5** indique que dans le cadre d'une autoconsommation, il est possible de réinjecter gratuitement de l'énergie dans le réseau.
+
+La limite de la réinjection est fixée par décret et est actuellement (2024) à 3kW.
+
+# Assurance
+
+Une installation photovoltaïque en autoconsommation ne nécessite rien de particuler.
+Il est quand même conseillé de signaler l'installation à votre assurance.
+
+Si votre installation photovoltaïque a un contrat de revente, il faudra vous renseigner auprès de l'entreprise qui effectue le rachat.
+Certaines obligent à être assurée.
+
+# Comment la production solaire fonctionne ?
+
+Dans ce chapitre, nous aborderons les principes de fonctionnement de la production solaire.
+
+Pour des raisons de lisibilités, nous resterons très généralistes.
+
+## Fonctionnement des panneaux solaires
+
+Les panneaux solaires sont constitués de deux matériaux différents.
+Les caractéristiques font que lorsque la lumière (la lumière est une sorte de matière) vient _frapper_ le panneaux solaire, il y a de l'électricité produite.
+On peut imaginer que la lumière est une sorte de pierre qui est lancée sur le panneau solaire.
+Plus la pierre (la lumière) frappe le panneau solaire à angle droit, plus la force de l'impact est fort et plus de d'électricité est produite.
+C'est ce qu'on nomme l'orientation du panneau solaire.
+
+![Constitution d'un panneau solaire](./images/panneau-solaire-couche.png)
+
+![Fonctionnement panneau solaire](./images/panneau-solaire-fonctionnement.png)
+
+Cette électricité en sortie du panneau solaire est trop faible pour être utilisée dans une maison et présente une caractéristique qui la rend incompatible avec les appareils branchés sur les prises électriques de la maison.
+
+Pour rendre cette électricité utilisable, il faut utiliser un appareil appelé onduleur.
+
+La puissance des panneaux est exprimée en Watt-crête (Wc), c'est la puissance maximale du panneau dans les conditions idéales.
+Cette puissance crête doit être lue en Watt-crête par heure.
+Ainsi, un panneau solaire de 400Wc, produit au maximum, 400W par heure.
+Cette notion de Watt-crête (Wc) est aussi utilisée pour décrire une installation photovoltaïque.
+Gardez toutefois à l'esprit que ces valeurs sont obtenues en laboratoire et qu'il est peu probable que vos panneaux produisent autant.
+
+Le type de cellule a aussi sont importance.
+Actuellement, les panneaux monocristallins sont les plus performantes.
+
+### Diodes by pass
+
+Un panneau solaire est en fait composé de deux demi-panneaux, eux même composé de plusieurs cellules photovoltaïques.
+
+Chaque cellule produit très peu d'électricité.
+Pour des raisons _pratiques_, les cellules sont mises en série.
+
+L'inconvénient, c'est qu'avec ce système, si une seule cellule est en panne, la panneau entier s'arrête de fonctionner.
+
+Si une cellule a de l'ombre sur elle, la production baisse.
+Sans rentrer dans le détail, si on imagine les cellules photovoltaïques sont des piles de 9V, cela signifie que
+les cellules bien exposées produisent 9V et la cellule ombragée produit 1.5V.
+
+En électricité, c'est la tension (9V) qui va _s'imposer_.
+Cela signifie que la pile 1.5V va se retrouver un peu dans la situation d'une pile en train d'être rechargée.
+
+Dans la mesure où les cellules photovoltaïques ne sont pas faites pour être rechargées, les cellules vont s'échauffer et il y a risque d'incendie.
+
+Pour éviter ce phénomène, un composant appelé diode bypass est installé.
+Son but, est de court-circuiter la cellule (représentée dans l'exemple précédent par la pile 1.5V) et faire comme s'il n'y avait pas de cellule.
+
+Pour optimiser le rendement solaire, d'autres diodes bypass sont installées.
+
+Dans l'image suivante, à gauche, un panneau solaire sans ombrage, à droite, un panneau solaire ombragé.
+La diode de bypass en rouge permet de court-circuiter une partie du panneau solaire.
+
+![Diode by pass](./images/panneau-solaire-diode-bypasse.png)
+
+## Onduleur central et micro-onduleur
+
+Ces appareils sont chargés de transformer l'électricité dite continue qui sort du panneau solaire en électricité dite alternative.
+
+Jusqu'en 2008, la solution consistait à connecter les panneaux les uns aux autres afin d'avoir une électricité élevée et de brancher le tout à un seul onduleur (onduleur central).
+Cet onduleur injectait l'électricité convertie sur le réseau de la maison.
+
+![Onduleur central](./images/onduleur-central.png)
+
+Ce type d'installation est plus sensible à l'ombrage.
+Toutefois, attention à ceux qui exagèrent en disant que si un panneau solaire est à moitié ombragé, alors toute la production est divisée par deux.
+C'est plus compliqué que cela.
+
+A partir de 2008, une autre solution est apparue consistant à mettre un petit onduleur, qu'on appelle micro-onduleur, à chaque panneaux solaires et ce sont ces micro-onduleurs qui sont reliés les un aux autres.
+
+Avec ces micro-onduleurs, on peut installer une passerelle qui permet de contrôler l'état des micro-onduleurs, leur production...
+Ces passerelles sont optionnelles et suivant la taille de l'installation, cela permet de gagner quelques centaines d'euro.
+
+![Micro-onduleur](./images/micro-onduleur.png)
+
+Quels sont les avantages et inconvénients de chaque solution ?
+
+Et bien, les fabricants d'onduleurs centraux vous diront que c'est leur solution qui est le mieux, les fabricants de micro-onduleur vont vous dire que c'est leur solution la meilleure.
+
+A ce stade, il vaut mieux laisser ce sujet de côté.
+Il sera abordé dans la section correspondante dans le chapitre **Réaliser soi même une installation**.
+
+# Bien définir son projet
+
+Il est très important de bien définir son projet.
+En effet, le projet sera totalement différent aussi bien en terme de matériel que de démarche si vous souhaitez essayer la production solaire ou si vous voulez être autonome (et donc ne plus dépendre d'un fournisseur d'énergie).
+
+Il faut aussi, savoir où seront installés les panneaux solaires.
+Si vous voulez faire l'installation vous même cela va influencer le choix entre onduleur et micro-onduleur.
+Dans tout les cas, cela va changer les démarches administratives.
+
+Il est important de se souvenir que les panneaux produisent à un instant T.
+Il faut donc consommer immédiatement l'électricité produite.
+
+Cela signifie que lorsque vous ou une entreprise conçoit une installation, c'est la consommation instantanée qui va servir de base et non la consommation globale (annuelle, mensuelle).
+
+Afin de bien visualiser votre consommation, je vous recommande d'activer le relevé par demi-heure au près de votre distributeur.
+Dans le cas d'Enedis, créez-vous un compte [sur leur site internet](https://www.enedis.fr) et activer l'option.
+
+Gardez bien à l'esprit que les panneaux solaires produisent en journée. Il faudra donc décaler certains usages. Par exemple, lancer une machine de linge une journée de forte production.
+
+# Mon installation solaire par un professionnel
+
+## Se faire accompagner
+
+### France Renov'
+
+La plateforme [France Renov'](https://france-renov.gouv.fr) a pour but d'informer, guider et orienter les ménages souhaitant réaliser des travaux de rénovation énergétique de leur logement.
+
+Lorsque vous prenez rendez-vous, vous serez reçu non pas par un agent public mais par un membre d'une association.
+
+A vous de vérifier que l'association a bien les mêmes valeurs que vous.
+
+### Associations de consommateurs
+
+Il existe en France de nombreuses associations de consommateurs.
+
+Elles ont pour ligne directrice de défendre le consommateur dans le respect des lois. Certaines sont très connues et réputées pour leur impartialité.
+
+Vous pouvez leur faire confiance pour vous guider au mieux sur le choix d'un devis d'installation photovoltaïque.
+
+Afin de connaitre les associations de consommateur, vous pouvez vous rendre sur le site du gouvernement https://www.economie.gouv.fr/dgccrf ou sur le site https://www.inc-conso.fr/.
+
+## Aide de l'Etat
+
+Afin de connaître les aides de l'état, le plus sûr est d'aller consulter le site du gouvernement https://www.economie.gouv.fr/particuliers/aides-installation-photovoltaiques.
+Vous pouvez aussi demander aux associations de consommateurs citées précédemment, vous éviterez des arnaques.
+
+Il y a donc des aides en fonction de la puissance de votre installation photovoltaïque et de vos revenus.
+Un taux de TVA à 10 % pour une installation inférieure ou égale à 3 kWc.
+
+## Revente du surplus de production
+
+Suivant votre projet et votre installation photovoltaïque, il est est possible que par moment, votre installation produise plus que votre consommation.
+Votre projet pourrait être aussi de revendre toute l'électricité produite.
+
+Le matériel et le temps d'installation ont un coût. Il faut trouver le bon équilibre entre le dimensionnement et l'amortissement.
+
+Suivant à qui vous revendrez l'électricité en surplus, cela impacte le choix de l'entreprise.
+En effet, en France, il y a la possibilité de revendre l'électricité à EDF via une offre réglementée, appelée **Offre d'Achat** (OA), à la condition que l'entreprise qui réalise l'installation photovoltaïque soit certifiée RGE.
+
+Sinon, si l'entreprise n'est pas certifiée RGE, vous pourrez uniquement revendre l'électricité au prix de marché (souvent bas) à certains fournisseurs d'électricités.
+Généralement, ces fournisseurs d'électricité imposent de prendre l'abonnement électrique pour votre maison chez eux.
+Il faut donc bien calculer les coûts.
+
+Dans le cadre, d'une installation pour un particulier qui vise l'autoconsommation, la revente d'électricité (OA ou au prix de marché) impose un surdimensionnement de l'installation photovoltaïque qui augmente fortement le délais de retour sur investissement.
+
+En tant que particuler, vous pouvez réinjecter gratuitement jusqu'à 3kW sur le réseau.
+
+## Consommation du surplus de production
+
+Si vous souhaitez mettre en place une solution pour éviter l'injection du surplus en mettant un système qui par exemple chauffe le ballon d'eau chaude avec l'électricité en surplus, il existe peu de solutions.
+
+Le fabricant d'onduleur réputé [Fronius](https://www.fronius.com/) propose quelques solutions comme OhmPilot, mais les prix sont conséquents.
+
+L'entreprise MyEnergi propose un système similaire moins cher appelé [Eddi](https://www.myenergi.com/nl/fr/product/eddi/).
+Il vous faudra comparer les deux produits afin de faire le bon choix.
+
+Il existe d'autres solutions, qui seront abordées la section correspondante dans le chapitre **Réaliser soi même une installation**.
+Dans la mesure, où vous faites le choix de passer par une entreprise, il est peu probable que d'autres solutions soient installées.
+
+## Calcul de l'amortissement
+
+Il est difficile de calculer l'amortissement d'une installation photovoltaïques.
+Cela va dépendre de la production de votre installation, de votre consommation, du prix de l'installation, du prix de l'électricité...
+
+Compter toutefois entre 7 et 10 ans pour amortir une installation réalisée par un professionnel.
+
+## Lire un devis
+
+### Exemple devis 1
+
+Voici le devis :
+
+![Exemple devis 1](./images/devis-1.jpg)
+
+Il est fait mention de micro-onduleurs et d'un coffret de sécurité AC et DC.
+Il n'y pas besoin de coffret DC avec les micro-onduleurs.
+Est-ce juste une erreur de frappe ?
+
+Le choix s'est porté sur des panneaux mono-crystalins c'est ce qu'il y a de mieux au niveau du rendement.
+Les fullblacks sont certes plus jolis, mais plus cher.
+La personne qui a fait le devis n'a pas posé la question de ce choix au client.
+Dommage.
+
+En prenant des panneaux de 420-450W, on aurait pû installer que 7 panneaux.
+Gain de temps de mise en œuvre, gain de matériel à installer, donc gain d'argent.
+On aurait pû en plus économiser 3 micros-onduleurs.
+Le problème c'est que Systovi, à l'heure de l'écriture de ces lignes en 2024, ne fait pas pour l'instant des panneaux de plus de 330W.
+
+Les micro-onduleurs installés sont des micro-onduleurs de la marque AP Systems, une des trois grandes marques de micro-onduleurs.
+Ils fonctionnent avec deux panneaux.
+Il faudrait alors soit installer 8 panneaux, soit 6 panneaux.
+Afin d'avoir le maximum d'aide de la part de l'État, il est nécessaire que l'installation photovoltaïque soit de 3kWc maximum.
+Dans le cas, présent, il faudrait donc installer que 6 panneaux.
+
+Pour ce qui est de la solution Smart-R de Systovi, dans le cas où il n'y a pas de batterie, j'ai l'impression que c'est l'ECU-C d'AP Systems qui est vendu environ 300€.
+
+### Exemple devis 2
+
+Voici le devis :
+
+![Exemple devis 2](./images/devis-2.jpg)
+
+L'installateur a choisi un onduleur central Solis.
+Solis est un marque chinoise correcte qui coûte environ 600€ (en 2024) pour 3kWc.
+Pour 1200€, on aurait pu avoir un Fronius ou SMA qui est dans le top niveau qualité et SAV.
+
+Comme pour le premier devis, des panneaux plus puissants et moins nombreux aurait pu être installés, réduisant le matériel et la main d'œuvre, donc le prix.
+
+Les panneaux fullblack sont plus cher, il y a moyen de gagner un peu sur cette partie.
+
+Sinon, le reste est tout à fait correct.
+
+# Kit photovoltaïque
+
+Les kit photovoltaïque ont l'avantage d'être simple à installer puisqu'ils sont simplement à brancher sur une prise électrique.
+
+Comme vu dans la section [Points administratif à connaitre dans tous les cas](points-administratif-a-connaitre-dans-tous-les-cas.md), si vous posez au sol un kit solaire, la seule démarche à faire, est de créer un compte sur le site d'[Enedis Raccordement](https://connect-racco.enedis.fr) et de remplir la demande d'une CACSI.
+
+Il faudra, bien sélectionner le fait que c'est un kit solaire et donc sans création de nouvelle ligne (passage du Consuel inutile, voir **Réaliser soi même une installation**).
+
 # Réaliser soi même une installation
 
 Avant de vous lancer dans la réalisation, il est important d'avoir des notions de bases.
@@ -528,3 +903,4 @@ Ces solutions sont moins chers que Fronius et MyEnergi.
 Veillez à bien à vérifier la conformité de ce type de matériel avec la réglementation électrique (perturbation électrique...).
 
 Des projets sur internet proposent de faire la même chose à un prix encore plus bas.
+
