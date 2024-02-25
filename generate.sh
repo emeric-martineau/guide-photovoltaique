@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
 
-
-# TODO :
-#   découper les images trop longues
-#   compléter introduction pour donner date génération
-
-FINAL_FILENAME="photovoltaique"
+FINAL_FILENAME="guide-photovoltaique"
 FINAL_MARKDOWN_FILENAME="${FINAL_FILENAME}.md"
+
+GITHUB_PAGES_FILENAME="gh-pages-index.md"
 
 IS_PANDOC_INSTALLED="$(pandoc --version 2>/dev/null | wc -l)"
 IS_PDFLATEX_INSTALLED="$(pdflatex --version 2>/dev/null | wc -l)"
@@ -58,18 +55,18 @@ for file in ${FILES_LIST}; do
     sed 's/####/     */g' | \
     sed 's/###/    */g' | \
     sed 's/##/  */g' | \
-    sed 's/#/*/g' >> "${FINAL_MARKDOWN_FILENAME}"
+    sed 's/#/*/g' | tee -a "${GITHUB_PAGES_FILENAME}" "${FINAL_MARKDOWN_FILENAME}" > /dev/null
 done
 
-echo '' >> "${FINAL_MARKDOWN_FILENAME}"
+echo '' | tee -a "${FINAL_MARKDOWN_FILENAME}" "${GITHUB_PAGES_FILENAME}" > /dev/null
 echo '\pagebreak' >> "${FINAL_MARKDOWN_FILENAME}"
 echo '' >> "${FINAL_MARKDOWN_FILENAME}"
 
 echo "3 - Concaténation de tous les fichiers"
 
 for file in ${FILES_LIST}; do
-  cat "${file}" >> "${FINAL_MARKDOWN_FILENAME}"
-  echo '' >> "${FINAL_MARKDOWN_FILENAME}"
+  cat "${file}" | tee -a "${FINAL_MARKDOWN_FILENAME}" "${GITHUB_PAGES_FILENAME}" > /dev/null
+  echo '' | tee -a "${FINAL_MARKDOWN_FILENAME}" "${GITHUB_PAGES_FILENAME}" > /dev/null
   echo '\pagebreak' >> "${FINAL_MARKDOWN_FILENAME}"
   echo '' >> "${FINAL_MARKDOWN_FILENAME}"
 done
@@ -84,4 +81,4 @@ pandoc \
        -o "${FINAL_FILENAME}.pdf" \
        "${FINAL_MARKDOWN_FILENAME}"
 
-rm -f "${FINAL_MARKDOWN_FILENAME}"
+rm -rf "${FINAL_MARKDOWN_FILENAME}"
