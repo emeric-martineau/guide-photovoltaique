@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
 
-
-# TODO :
-#   découper les images trop longues
-#   compléter introduction pour donner date génération
-
-FINAL_FILENAME="photovoltaique"
+FINAL_FILENAME="guide-photovoltaique"
 FINAL_MARKDOWN_FILENAME="${FINAL_FILENAME}.md"
 
 IS_PANDOC_INSTALLED="$(pandoc --version 2>/dev/null | wc -l)"

@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - guide-photovoltaique.md
+
+theme: jekyll-theme-cayman
+title: Guide sans prétention du photovoltaïque
+description: Un gide permettant de comprendre comment fonctionne le photovoltaïque, les démarches, les devis ou même poser soit même
+show_downloads: true
