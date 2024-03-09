@@ -1,29 +1,33 @@
 name: Generate PDF and Release
 
- 
-
 on:
   push:
     tags:
       - 'v*'
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Pandoc and pdflatex
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc pdflatext
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
 
       - name: Run script
         run: ./generate.sh
 
       - name: Copy index.md to gh-pages branch
         run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git fetch
           git checkout gh-pages
           cp gh-pages-index.md index.md
           git add index.md
