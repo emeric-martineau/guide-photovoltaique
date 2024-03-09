@@ -23,8 +23,9 @@
   * Lire un devis
     * Exemple devis 1
     * Exemple devis 2
+  * Pièges à éviter
 * Kit photovoltaïque
-* Réaliser soi même une installation
+* Réaliser soi-même une installation
   * Normes
     * NF C-15 100
     * UTE C-15 712
@@ -57,7 +58,7 @@ Lorsque j'ai voulu me lancer dans le photovoltaïque, je ne trouvais pas par quo
 J'ai eu la chance de rencontrer des gens qui avaient fait l'installation par eux même, toutefois, il me restait encore de nombreuses questions.
 
 Par ce guide, j'ai voulu essayer de faire le guide que j'aurai aimé avoir à ce moment là. 
-Un guide qui explique de façon générale comment fonctionne le photovoltaïque mais aussi de façon beaucoup plus poussé car j'aime comprendre comment fonctionnent les choses.
+Un guide qui explique de façon générale comment fonctionne le photovoltaïque mais aussi de façon beaucoup plus poussée car j'aime comprendre comment fonctionnent les choses.
 
 C'est un guide qui a pour but de donner quelques clefs ou directions pour lancer votre projet.
 Il a fallu faire des choix tant pour faciliter les explications que pour amener le lecteur progressivement dans le sujet.
@@ -231,7 +232,7 @@ Quels sont les avantages et inconvénients de chaque solution ?
 Et bien, les fabricants d'onduleurs centraux vous diront que c'est leur solution qui est le mieux, les fabricants de micro-onduleur vont vous dire que c'est leur solution la meilleure.
 
 A ce stade, il vaut mieux laisser ce sujet de côté.
-Il sera abordé dans la section correspondante dans le chapitre **Réaliser soi même une installation**.
+Il sera abordé dans la section correspondante dans le chapitre **Réaliser soi-même une installation**.
 
 # Bien définir son projet
 
@@ -251,6 +252,10 @@ Afin de bien visualiser votre consommation, je vous recommande d'activer le rele
 Dans le cas d'Enedis, créez-vous un compte [sur leur site internet](https://www.enedis.fr) et activer l'option.
 
 Gardez bien à l'esprit que les panneaux solaires produisent en journée. Il faudra donc décaler certains usages. Par exemple, lancer une machine de linge une journée de forte production.
+
+Il est important de noter aussi, que si vous être en double tarification, ce qu'on appelle communément jour/nuit, il faudra changer pour un tarification unique car la 
+double tarification devient inutilement plus cher lorsqu'on a des panneaux solaires.
+Cela implique, si vous avez un ballon d'eau chaude électrique, de mettre une horloge pour éviter qu'il soit branché en permanence. Les ballons électriques ne sont pas conçu pour cela.
 
 # Mon installation solaire par un professionnel
 
@@ -365,6 +370,28 @@ Les panneaux fullblack sont plus cher, il y a moyen de gagner un peu sur cette p
 
 Sinon, le reste est tout à fait correct.
 
+## Pièges à éviter
+
+Le solaire peut-être très intéressant.
+Mais attention aux belles promesses auxquelles il est facile de céder.
+
+Il vaut mieux éviter de signer un devis dans une foire ou un salon, la vente est ferme et définitive, le droit de rétractation inexistant !
+
+Comme toujours, attention aux démarchages.
+Abstenez-vous de toute signature aussi bien au téléphone que directement à domicile.
+Laisser le démarcheur sur le pas de la porte et prenez ses coordonnées, puis vérifier la crédibilité de l'entreprise.
+Les associations de consommateurs sont souvent très bien renseignées sur ce type d'entreprise et pourront vous éviter des déconvenues.
+
+Avec les exemples de devis, nous avons pu constater de grands écarts de prix.
+Prenez le temps de vous renseigner (ne cédez pas aux promos qui se terminent dans la journée).
+Les associations de consommation conseillent des professionnels RGE QualiPV et RGE Qualifelec.
+Toutefois, il existe des installeurs très sérieux sans ces qualifications (qualifications qui font généralement augmenter le prix du devis car cela ajoute des démarches à l'entreprise, mais qui normalement assure un certain sérieux).
+Dans tous les cas, prenez un installateur local car en cas de problème, une entreprise siégeant à 100Km du point d'installation sera toujours très peu motivée pour intervenir.
+
+Avant de signer le devis, vous pouvez demander l'avis sur des forums comme celui cité en introduction de ce guide.
+Vous pouvez aussi comparer le devis via la simulation sur le site [ÉVALUER MON DEVIS PHOTOVOLTAIQUE.INFO](https://evaluer-mon-devis.photovoltaique.info)
+conseillé par l'UFC Que Choisir.
+
 # Kit photovoltaïque
 
 Les kit photovoltaïque ont l'avantage d'être simple à installer puisqu'ils sont simplement à brancher sur une prise électrique.
@@ -373,7 +400,7 @@ Comme vu dans la section [Points administratif à connaitre dans tous les cas](p
 
 Il faudra, bien sélectionner le fait que c'est un kit solaire et donc sans création de nouvelle ligne (passage du Consuel inutile, voir **Réaliser soi même une installation**).
 
-# Réaliser soi même une installation
+# Réaliser soi-même une installation
 
 Avant de vous lancer dans la réalisation, il est important d'avoir des notions de bases.
 
