@@ -16,3 +16,7 @@ Afin de bien visualiser votre consommation, je vous recommande d'activer le rele
 Dans le cas d'Enedis, créez-vous un compte [sur leur site internet](https://www.enedis.fr) et activer l'option.
 
 Gardez bien à l'esprit que les panneaux solaires produisent en journée. Il faudra donc décaler certains usages. Par exemple, lancer une machine de linge une journée de forte production.
+
+Il est important de noter aussi, que si vous être en double tarification, ce qu'on appelle communément jour/nuit, il faudra changer pour un tarification unique car la 
+double tarification devient inutilement plus cher lorsqu'on a des panneaux solaires.
+Cela implique, si vous avez un ballon d'eau chaude électrique, de mettre une horloge pour éviter qu'il soit branché en permanence. Les ballons électriques ne sont pas conçu pour cela.
