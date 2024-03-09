@@ -110,3 +110,25 @@ Comme pour le premier devis, des panneaux plus puissants et moins nombreux aurai
 Les panneaux fullblack sont plus cher, il y a moyen de gagner un peu sur cette partie.
 
 Sinon, le reste est tout à fait correct.
+
+## Pièges à éviter
+
+Le solaire peut-être très intéressant.
+Mais attention aux belles promesses auxquelles il est facile de céder.
+
+Il vaut mieux éviter de signer un devis dans une foire ou un salon, la vente est ferme et définitive, le droit de rétractation inexistant !
+
+Comme toujours, attention aux démarchages.
+Abstenez-vous de toute signature aussi bien au téléphone que directement à domicile.
+Laisser le démarcheur sur le pas de la porte et prenez ses coordonnées, puis vérifier la crédibilité de l'entreprise.
+Les associations de consommateurs sont souvent très bien renseignées sur ce type d'entreprise et pourront vous éviter des déconvenues.
+
+Avec les exemples de devis, nous avons pu constater de grands écarts de prix.
+Prenez le temps de vous renseigner (ne cédez pas aux promos qui se terminent dans la journée).
+Les associations de consommation conseillent des professionnels RGE QualiPV et RGE Qualifelec.
+Toutefois, il existe des installeurs très sérieux sans ces qualifications (qualifications qui font généralement augmenter le prix du devis car cela ajoute des démarches à l'entreprise, mais qui normalement assure un certain sérieux).
+Dans tous les cas, prenez un installateur local car en cas de problème, une entreprise siégeant à 100Km du point d'installation sera toujours très peu motivée pour intervenir.
+
+Avant de signer le devis, vous pouvez demander l'avis sur des forums comme celui cité en introduction de ce guide.
+Vous pouvez aussi comparer le devis via la simulation sur le site [ÉVALUER MON DEVIS PHOTOVOLTAIQUE.INFO](https://evaluer-mon-devis.photovoltaique.info)
+conseillé par l'UFC Que Choisir.
