@@ -82,4 +82,4 @@ Quels sont les avantages et inconvénients de chaque solution ?
 Et bien, les fabricants d'onduleurs centraux vous diront que c'est leur solution qui est le mieux, les fabricants de micro-onduleur vont vous dire que c'est leur solution la meilleure.
 
 A ce stade, il vaut mieux laisser ce sujet de côté.
-Il sera abordé dans la section correspondante dans le chapitre **Réaliser soi même une installation**.
+Il sera abordé dans la section correspondante dans le chapitre **Réaliser soi-même une installation**.

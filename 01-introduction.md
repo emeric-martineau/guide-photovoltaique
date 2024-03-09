@@ -4,7 +4,7 @@ Lorsque j'ai voulu me lancer dans le photovoltaïque, je ne trouvais pas par quo
 J'ai eu la chance de rencontrer des gens qui avaient fait l'installation par eux même, toutefois, il me restait encore de nombreuses questions.
 
 Par ce guide, j'ai voulu essayer de faire le guide que j'aurai aimé avoir à ce moment là. 
-Un guide qui explique de façon générale comment fonctionne le photovoltaïque mais aussi de façon beaucoup plus poussé car j'aime comprendre comment fonctionnent les choses.
+Un guide qui explique de façon générale comment fonctionne le photovoltaïque mais aussi de façon beaucoup plus poussée car j'aime comprendre comment fonctionnent les choses.
 
 C'est un guide qui a pour but de donner quelques clefs ou directions pour lancer votre projet.
 Il a fallu faire des choix tant pour faciliter les explications que pour amener le lecteur progressivement dans le sujet.

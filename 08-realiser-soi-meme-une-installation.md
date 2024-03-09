@@ -1,4 +1,4 @@
-# Réaliser soi même une installation
+# Réaliser soi-même une installation
 
 Avant de vous lancer dans la réalisation, il est important d'avoir des notions de bases.
 
