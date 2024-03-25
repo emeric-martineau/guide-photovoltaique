@@ -15,7 +15,7 @@ fi
 
 # List markdown file
 FILES_LIST="$(ls -v [0-9]*.md)"
-GENERATED_DATE="$(date '+%d-%m-%Y %H:%M:%S')"
+GENERATED_DATE="$(date '+%d/%m/%Y %H:%M:%S') - $(git describe --tags --abbrev=0)"
 
 echo "1 - Création du fichier '${FINAL_MARKDOWN_FILENAME}'"
 
@@ -59,16 +59,20 @@ for file in ${FILES_LIST}; do
 done
 
 echo '' | tee -a "${FINAL_MARKDOWN_FILENAME}" "${GITHUB_PAGES_FILENAME}" > /dev/null
-echo '\pagebreak' >> "${FINAL_MARKDOWN_FILENAME}"
-echo '' >> "${FINAL_MARKDOWN_FILENAME}"
+{
+  echo '\pagebreak'
+  echo ''
+} >> "${FINAL_MARKDOWN_FILENAME}"
 
 echo "3 - Concaténation de tous les fichiers"
 
 for file in ${FILES_LIST}; do
   cat "${file}" | tee -a "${FINAL_MARKDOWN_FILENAME}" "${GITHUB_PAGES_FILENAME}" > /dev/null
   echo '' | tee -a "${FINAL_MARKDOWN_FILENAME}" "${GITHUB_PAGES_FILENAME}" > /dev/null
-  echo '\pagebreak' >> "${FINAL_MARKDOWN_FILENAME}"
-  echo '' >> "${FINAL_MARKDOWN_FILENAME}"
+  {
+    echo '\pagebreak'
+    echo ''
+  } >> "${FINAL_MARKDOWN_FILENAME}"
 done
 
 echo "4 - Génération du PDF"

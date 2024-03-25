@@ -23,6 +23,13 @@ jobs:
       - name: Run script
         run: ./generate.sh
 
+      - name: yq - portable yaml processor
+        uses: mikefarah/yq@v4.43.1
+        run: |
+          export SUB_TITLE
+          SUB_TITLE="$(date '+%d/%m/%Y %H:%M:%S') - $(git describe --tags --abbrev=0)"
+          yq -i '.subtitle = env(SUB_TITLE)' _config.yml
+
       - name: Copy index.md to gh-pages branch
         run: |
           git config user.name github-actions
