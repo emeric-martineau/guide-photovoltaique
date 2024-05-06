@@ -19,16 +19,17 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra jq
+          sudo wget -qO /usr/local/bin/yq https://github.com/mikefarah/yq/releases/download/v4.43.1/yq_linux_amd64
+          sudo chmod a+x /usr/local/bin/yq
 
       - name: Run script
         run: ./generate.sh
 
-      - name: yq - portable yaml processor
-        uses: mikefarah/yq@v4.43.1
+      - name: Add subtitle
         run: |
           export SUB_TITLE
           SUB_TITLE="$(date '+%d/%m/%Y %H:%M:%S') - $(git describe --tags --abbrev=0)"
-          yq -i '.subtitle = env(SUB_TITLE)' _config.yml
+          yq '.subtitle = env(SUB_TITLE)' _config.yml > _config.yml.new
 
       - name: Copy index.md to gh-pages branch
         run: |
@@ -36,8 +37,9 @@ jobs:
           git config user.email github-actions@github.com
           git fetch
           git checkout gh-pages
+          cp _config.yml.new _config.yml
           cp gh-pages-index.md index.md
-          git add index.md
+          git add index.md _config.yml
           git commit -m "Add index.md to gh-pages"
           git push origin gh-pages
 
