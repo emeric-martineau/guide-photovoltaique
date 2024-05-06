@@ -381,6 +381,52 @@ Pour cet annexe, il faut prendre l'habitation en photo à 2-3 mètres du terrain
 
 Pour cette annexe, il faut prendre l'habitation en photo depuis un point éloigné, par exemple au bout de la rue et faire un montage pour permettre de visualiser le rendu final, lorsque les panneaux solaires seront installés
 
+### Calcul de section et protection nécessaire
+
+Maintenant que nous savons où installer nos panneaux solaires, il est nécessaire de déterminer la section de câble qu'il doit être utilisé entre le tableau électrique
+et les panneaux solaires.
+
+Cela se fait au moyen de la formule suivante :
+```
+NB_PHASE: Nombre de phase
+P_S_ONDULEUR: Puissance maximum en sortie onduleur (VA)
+PCT_PERTE: 1% (NF C-15 100 tolère 3% maximum)
+DISTANCE: Distance en mètre entre le tableau de raccordement et les panneaux solaires
+
+Résistivité_Cuivre: voir tableau
+
+Intensité = P_S_ONDULEUR / (230 * NB_PHASE)
+Section_par_conducteur = (DISTANCE * R_Résistivité_Cuivre * Intensité) / (PCT_PERTE * 230)
+```
+
+| Section    |    2.5 |      4 |      6 |     10 |     16 |     25 |     35 |     50 |     70 |
+|------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Résistance | 0.0205 | 0.0204 | 0.0203 | 0.0191 | 0.0198 | 0.0199 | 0.0198 | 0.0197 | 0.0194 |
+
+
+En triphasé, on prend directement la valeur Section_par_conducteur.
+
+En monophasé, on prend la valeur Section_par_conducteur * 2.
+
+Nous sommes en monophasé, avec 5 mètres de câble entre le tableau électrique et les panneaux solaires. Nous avons 6 panneaux solaires, donc 6 micro-onduleurs.
+Cela nous donne :
+
+```
+NB_PHASE: 1
+P_S_ONDULEUR: 325 * 6 (car 6 onduleurs)
+PCT_PERTE: 1%
+DISTANCE: 5
+
+Intensité = 325*6 / (230 * 1) => 8.47
+Section_par_conducteur = (5 * 0.0205 * 8.47) / (0.01 * 230)
+```
+
+La section par conducteur est de 0.37mm², que nous multiplions par 2. Toutefois, la NF C-15 100 impose une section minimum de 1.5mm².
+Les onduleurs sont livrés avec des câbles de 2.5mm², nous allons garder cette section et mettre un disjoncteur de 10A.
+
+Le câble allant vers les panneaux solaires doit aussi être protégé contre les fuites de courant. Pour cela, il faut installer un interrupteur différentiel 30mA.
+Du fait que le courant circulant entre les panneaux solaires et le tableau soit alternatif et qu'il n'y a pas de consommation de courant à composante continue, un type AC est suffisant.
+
 ### Remplir la demande Consuel
 
 Puisque vous réalisez vous même l'installation des panneaux photovoltaïque et que pour cela, il est nécessaire de modifier l'installation électrique de l'habitation, vous devez faire valider l'installation par le Consuel, seul organisme agréé par l'État pour cette tâche.
