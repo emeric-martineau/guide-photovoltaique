@@ -1,58 +1,60 @@
-* Introduction
-  * Où trouver la dernière version de ce document
-  * Licence
-* Points administratifs à connaître dans tous les cas
-  * Installation en surimposition
-  * Avis des Architectes des Batiments de France (ABF)
-  * Déclaration préalable de travaux
-* CACSI: Convention d'Autoconsommation Sans Injection
-* Assurance
-* Comment la production solaire fonctionne ?
-  * Fonctionnement des panneaux solaires
-    * Diodes by pass
-  * Onduleur central et micro-onduleur
-* Bien définir son projet
-* Mon installation solaire par un professionnel
-  * Se faire accompagner
-    * France Renov'
-    * Associations de consommateurs
-  * Aide de l'Etat
-  * Revente du surplus de production
-  * Consommation du surplus de production
-  * Calcul de l'amortissement
-  * Lire un devis
-    * Exemple devis 1
-    * Exemple devis 2
-  * Pièges à éviter
-* Kit photovoltaïque
-* Réaliser soi-même une installation
-  * Normes
-    * NF C-15 100
-    * UTE C-15 712
-  * Rappel des bases électriques
-    * Qu'est-ce que l'électricité ?
-    * Alternatif ou continu ?
-    * Le courant
-    * La tension
-    * Est-ce la tension ou le courant qui est le plus dangereux ?
-    * Tension de sécurité
-    * Neutre, phase, terre
-    * Produisons de l'électricité en toute sécurité
-    * Monophasé et triphasé
-  * Étude de cas
-    * Étude du solaire et de sa direction
-    * Remplir une demande préalable de travaux
-     * Annexe DP1
-     * Annexe DP4
-     * Annexe DP6
-     * Annexe DP7
-     * Annexe DP8
-    * Remplir la demande Consuel
-     * Étiquetage
-    * Remplir une demande CACSI (Convention d'Autoconsommation Sans Injection)
-  * Consommation du surplus de production
+* [Introduction](#Introduction)
+  * [Où trouver la dernière version de ce document](#O%C3%B9%20trouver%20la%20derni%C3%A8re%20version%20de%20ce%20document)
+  * [Licence](#Licence)
+* [Points administratifs à connaître dans tous les cas](#Points%20administratifs%20%C3%A0%20conna%C3%AEtre%20dans%20tous%20les%20cas)
+  * [Installation en surimposition](#Installation%20en%20surimposition)
+  * [Avis des Architectes des Batiments de France (ABF)](#Avis%20des%20Architectes%20des%20Batiments%20de%20France%20(ABF))
+  * [Déclaration préalable de travaux](#D%C3%A9claration%20pr%C3%A9alable%20de%20travaux)
+* [CACSI: Convention d'Autoconsommation Sans Injection](#CACSI%3A%20Convention%20d'Autoconsommation%20Sans%20Injection)
+* [Assurance](#Assurance)
+* [Comment la production solaire fonctionne ?](#Comment%20la%20production%20solaire%20fonctionne%20%3F)
+  * [Fonctionnement des panneaux solaires](#Fonctionnement%20des%20panneaux%20solaires)
+    * [Diodes by pass](#Diodes%20by%20pass)
+  * [Onduleur central et micro-onduleur](#Onduleur%20central%20et%20micro-onduleur)
+* [Bien définir son projet](#Bien%20d%C3%A9finir%20son%20projet)
+* [Mon installation solaire par un professionnel](#Mon%20installation%20solaire%20par%20un%20professionnel)
+  * [Se faire accompagner](#Se%20faire%20accompagner)
+    * [France Renov'](#France%20Renov')
+    * [Associations de consommateurs](#Associations%20de%20consommateurs)
+  * [Aide de l'Etat](#Aide%20de%20l'Etat)
+  * [Revente du surplus de production](#Revente%20du%20surplus%20de%20production)
+  * [Consommation du surplus de production](#Consommation%20du%20surplus%20de%20production)
+  * [Calcul de l'amortissement](#Calcul%20de%20l'amortissement)
+  * [Lire un devis](#Lire%20un%20devis)
+    * [Exemple devis 1](#Exemple%20devis%201)
+    * [Exemple devis 2](#Exemple%20devis%202)
+  * [Pièges à éviter](#Pi%C3%A8ges%20%C3%A0%20%C3%A9viter)
+* [Kit photovoltaïque](#Kit%20photovolta%C3%AFque)
+* [Réaliser soi-même une installation](#R%C3%A9aliser%20soi-m%C3%AAme%20une%20installation)
+  * [Normes](#Normes)
+    * [NF C-15 100](#NF%20C-15%20100)
+    * [UTE C-15 712](#UTE%20C-15%20712)
+  * [Rappel des bases électriques](#Rappel%20des%20bases%20%C3%A9lectriques)
+    * [Qu'est-ce que l'électricité ?](#Qu'est-ce%20que%20l'%C3%A9lectricit%C3%A9%20%3F)
+    * [Alternatif ou continu ?](#Alternatif%20ou%20continu%20%3F)
+    * [Le courant](#Le%20courant)
+    * [La tension](#La%20tension)
+    * [Est-ce la tension ou le courant qui est le plus dangereux ?](#Est-ce%20la%20tension%20ou%20le%20courant%20qui%20est%20le%20plus%20dangereux%20%3F)
+    * [Tension de sécurité](#Tension%20de%20s%C3%A9curit%C3%A9)
+    * [Neutre, phase, terre](#Neutre%2C%20phase%2C%20terre)
+    * [Produisons de l'électricité en toute sécurité](#Produisons%20de%20l'%C3%A9lectricit%C3%A9%20en%20toute%20s%C3%A9curit%C3%A9)
+    * [Monophasé et triphasé](#Monophas%C3%A9%20et%20triphas%C3%A9)
+  * [Étude de cas](#%C3%89tude%20de%20cas)
+    * [Étude du solaire et de sa direction](#%C3%89tude%20du%20solaire%20et%20de%20sa%20direction)
+    * [Remplir une demande préalable de travaux](#Remplir%20une%20demande%20pr%C3%A9alable%20de%20travaux)
+      * [Annexe DP1](#Annexe%20DP1)
+      * [Annexe DP4](#Annexe%20DP4)
+      * [Annexe DP6](#Annexe%20DP6)
+      * [Annexe DP7](#Annexe%20DP7)
+      * [Annexe DP8](#Annexe%20DP8)
+    * [Calcul de section et protection nécessaire](#Calcul%20de%20section%20et%20protection%20n%C3%A9cessaire)
+    * [Remplir la demande Consuel](#Remplir%20la%20demande%20Consuel)
+      * [Étiquetage](#%C3%89tiquetage)
+    * [Remplir une demande CACSI (Convention d'Autoconsommation Sans Injection)](#Remplir%20une%20demande%20CACSI%20(Convention%20d'Autoconsommation%20Sans%20Injection))
+  * [Consommation du surplus de production](#Consommation%20du%20surplus%20de%20production)
+* [Entretenir ses panneaux-solaires](#Entretenir%20ses%20panneaux-solaires)
 
-# Introduction
+# Introduction<a name="Introduction"></a>
 
 Lorsque j'ai voulu me lancer dans le photovoltaïque, je ne trouvais pas par quoi commencer.
 J'ai eu la chance de rencontrer des gens qui avaient fait l'installation par eux même, toutefois, il me restait encore de nombreuses questions.
@@ -69,11 +71,11 @@ J'ai aussi fait le choix de présenter la solution la plus simple à mettre en �
 
 Aussi, après lecture de ce guide, il vous faudra certainement creuser le sujet sur des forums comme le [Forum photovoltaïque](https://forum-photovoltaique.fr).
 
-## Où trouver la dernière version de ce document
+## Où trouver la dernière version de ce document<a name="O%C3%B9%20trouver%20la%20derni%C3%A8re%20version%20de%20ce%20document"></a>
 
 Vous pouvez télécharger la dernière version de ce document à l'adresse suivante https://github.com/emeric-martineau/guide-photovoltaique/releases
 
-## Licence
+## Licence<a name="Licence"></a>
 
 Ce document est licencié sous Attribution-NonCommercial-ShareAlike 4.0 International © 2024 by Emeric MARTINEAU.
 
@@ -90,9 +92,9 @@ Selon les conditions suivantes :
  * Partage dans les Mêmes Conditions — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'œuvre originale, vous devez diffuser l'œuvre modifiée dans les même conditions, c'est à dire avec la même licence avec laquelle l'œuvre originale a été diffusée.
  * Pas de restrictions complémentaires — Vous n'êtes pas autorisé à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l'œuvre dans les conditions décrites par la licence.
 
-# Points administratifs à connaître dans tous les cas
+# Points administratifs à connaître dans tous les cas<a name="Points%20administratifs%20%C3%A0%20conna%C3%AEtre%20dans%20tous%20les%20cas"></a>
 
-## Installation en surimposition
+## Installation en surimposition<a name="Installation%20en%20surimposition"></a>
 
 A part quelques cas très précis (zones protégées...), la mairie ne peut s'opposer à l'installation de panneaux solaires en sur-imposition.
 L'[Arrêté du 19 décembre 2014 relatif aux caractéristiques des systèmes de production d'énergie à partir de sources renouvelables mentionnés à l'article R. 111-50 du code de l'urbanisme](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029954131) indique :
@@ -101,13 +103,13 @@ L'[Arrêté du 19 décembre 2014 relatif aux caractéristiques des systèmes de 
 > la performance environnementale des constructions, notamment lorsqu'ils sont renouvelables ou qu'ils
 > permettent d'éviter l'émission de gaz à effet de serre.
 
-## Avis des Architectes des Batiments de France (ABF)
+## Avis des Architectes des Batiments de France (ABF)<a name="Avis%20des%20Architectes%20des%20Batiments%20de%20France%20(ABF)"></a>
 
 Si votre installation n'est pas directement visible depuis un monument historique (pas inter-visibilité) ou non visible en même temps (non-covisibilité), l'[avis des Archites des Batiments de France est facultatifs](https://www.senat.fr/questions/base/2023/qSEQ230305721.html).
 
 Toutefois, il y a de grande chance pour que la mairie où se trouve le projet demande quand même l'avis des ABF.
 
-## Déclaration préalable de travaux
+## Déclaration préalable de travaux<a name="D%C3%A9claration%20pr%C3%A9alable%20de%20travaux"></a>
 
 Attention à ce que vous lisez sur internet, aussi bien sur des sites d'information que sur les sites de revendeur ou fabricant.
 
@@ -134,13 +136,13 @@ Zone protégé :
 
 Même exonérés d'autorisation, vos panneaux solaires sont considérés comme de la surface taxable, et implique le paiement d'une taxe d'aménagement.
 
-# CACSI: Convention d'Autoconsommation Sans Injection
+# CACSI: Convention d'Autoconsommation Sans Injection<a name="CACSI%3A%20Convention%20d'Autoconsommation%20Sans%20Injection"></a>
 
 Cette convention est signée avec Enedis. Même s'il y a la notion **sans injection**, le **Code de l'énergie**, **Chapitre V : L'autoconsommation**, **Article L315-5** indique que dans le cadre d'une autoconsommation, il est possible de réinjecter gratuitement de l'énergie dans le réseau.
 
 La limite de la réinjection est fixée par décret et est actuellement (2024) à 3kW.
 
-# Assurance
+# Assurance<a name="Assurance"></a>
 
 Une installation photovoltaïque en autoconsommation ne nécessite rien de particuler.
 Il est quand même conseillé de signaler l'installation à votre assurance.
@@ -148,13 +150,13 @@ Il est quand même conseillé de signaler l'installation à votre assurance.
 Si votre installation photovoltaïque a un contrat de revente, il faudra vous renseigner auprès de l'entreprise qui effectue le rachat.
 Certaines obligent à être assurée.
 
-# Comment la production solaire fonctionne ?
+# Comment la production solaire fonctionne ?<a name="Comment%20la%20production%20solaire%20fonctionne%20%3F"></a>
 
 Dans ce chapitre, nous aborderons les principes de fonctionnement de la production solaire.
 
 Pour des raisons de lisibilités, nous resterons très généralistes.
 
-## Fonctionnement des panneaux solaires
+## Fonctionnement des panneaux solaires<a name="Fonctionnement%20des%20panneaux%20solaires"></a>
 
 Les panneaux solaires sont constitués de deux matériaux différents.
 Les caractéristiques font que lorsque la lumière (la lumière est une sorte de matière) vient _frapper_ le panneaux solaire, il y a de l'électricité produite.
@@ -179,7 +181,7 @@ Gardez toutefois à l'esprit que ces valeurs sont obtenues en laboratoire et qu'
 Le type de cellule a aussi sont importance.
 Actuellement, les panneaux monocristallins sont les plus performantes.
 
-### Diodes by pass
+### Diodes by pass<a name="Diodes%20by%20pass"></a>
 
 Un panneau solaire est en fait composé de deux demi-panneaux, eux même composé de plusieurs cellules photovoltaïques.
 
@@ -207,7 +209,7 @@ La diode de bypass en rouge permet de court-circuiter une partie du panneau sola
 
 ![Diode by pass](./images/panneau-solaire-diode-bypasse.png)
 
-## Onduleur central et micro-onduleur
+## Onduleur central et micro-onduleur<a name="Onduleur%20central%20et%20micro-onduleur"></a>
 
 Ces appareils sont chargés de transformer l'électricité dite continue qui sort du panneau solaire en électricité dite alternative.
 
@@ -234,7 +236,7 @@ Et bien, les fabricants d'onduleurs centraux vous diront que c'est leur solution
 A ce stade, il vaut mieux laisser ce sujet de côté.
 Il sera abordé dans la section correspondante dans le chapitre **Réaliser soi-même une installation**.
 
-# Bien définir son projet
+# Bien définir son projet<a name="Bien%20d%C3%A9finir%20son%20projet"></a>
 
 Il est très important de bien définir son projet.
 En effet, le projet sera totalement différent aussi bien en terme de matériel que de démarche si vous souhaitez essayer la production solaire ou si vous voulez être autonome (et donc ne plus dépendre d'un fournisseur d'énergie).
@@ -253,15 +255,15 @@ Dans le cas d'Enedis, créez-vous un compte [sur leur site internet](https://www
 
 Gardez bien à l'esprit que les panneaux solaires produisent en journée. Il faudra donc décaler certains usages. Par exemple, lancer une machine de linge une journée de forte production.
 
-Il est important de noter aussi, que si vous être en double tarification, ce qu'on appelle communément jour/nuit, il faudra changer pour un tarification unique car la 
+Il est important de noter aussi, que si vous être en double tarification, ce qu'on appelle communément jour/nuit, il faudra changer pour une tarification unique car la 
 double tarification devient inutilement plus cher lorsqu'on a des panneaux solaires.
 Cela implique, si vous avez un ballon d'eau chaude électrique, de mettre une horloge pour éviter qu'il soit branché en permanence. Les ballons électriques ne sont pas conçu pour cela.
 
-# Mon installation solaire par un professionnel
+# Mon installation solaire par un professionnel<a name="Mon%20installation%20solaire%20par%20un%20professionnel"></a>
 
-## Se faire accompagner
+## Se faire accompagner<a name="Se%20faire%20accompagner"></a>
 
-### France Renov'
+### France Renov'<a name="France%20Renov'"></a>
 
 La plateforme [France Renov'](https://france-renov.gouv.fr) a pour but d'informer, guider et orienter les ménages souhaitant réaliser des travaux de rénovation énergétique de leur logement.
 
@@ -269,7 +271,7 @@ Lorsque vous prenez rendez-vous, vous serez reçu non pas par un agent public ma
 
 A vous de vérifier que l'association a bien les mêmes valeurs que vous.
 
-### Associations de consommateurs
+### Associations de consommateurs<a name="Associations%20de%20consommateurs"></a>
 
 Il existe en France de nombreuses associations de consommateurs.
 
@@ -279,7 +281,7 @@ Vous pouvez leur faire confiance pour vous guider au mieux sur le choix d'un dev
 
 Afin de connaitre les associations de consommateur, vous pouvez vous rendre sur le site du gouvernement https://www.economie.gouv.fr/dgccrf ou sur le site https://www.inc-conso.fr/.
 
-## Aide de l'Etat
+## Aide de l'Etat<a name="Aide%20de%20l'Etat"></a>
 
 Afin de connaître les aides de l'état, le plus sûr est d'aller consulter le site du gouvernement https://www.economie.gouv.fr/particuliers/aides-installation-photovoltaiques.
 Vous pouvez aussi demander aux associations de consommateurs citées précédemment, vous éviterez des arnaques.
@@ -287,7 +289,7 @@ Vous pouvez aussi demander aux associations de consommateurs citées précédemm
 Il y a donc des aides en fonction de la puissance de votre installation photovoltaïque et de vos revenus.
 Un taux de TVA à 10 % pour une installation inférieure ou égale à 3 kWc.
 
-## Revente du surplus de production
+## Revente du surplus de production<a name="Revente%20du%20surplus%20de%20production"></a>
 
 Suivant votre projet et votre installation photovoltaïque, il est est possible que par moment, votre installation produise plus que votre consommation.
 Votre projet pourrait être aussi de revendre toute l'électricité produite.
@@ -305,7 +307,7 @@ Dans le cadre, d'une installation pour un particulier qui vise l'autoconsommatio
 
 En tant que particuler, vous pouvez réinjecter gratuitement jusqu'à 3kW sur le réseau.
 
-## Consommation du surplus de production
+## Consommation du surplus de production<a name="Consommation%20du%20surplus%20de%20production"></a>
 
 Si vous souhaitez mettre en place une solution pour éviter l'injection du surplus en mettant un système qui par exemple chauffe le ballon d'eau chaude avec l'électricité en surplus, il existe peu de solutions.
 
@@ -317,16 +319,16 @@ Il vous faudra comparer les deux produits afin de faire le bon choix.
 Il existe d'autres solutions, qui seront abordées la section correspondante dans le chapitre **Réaliser soi même une installation**.
 Dans la mesure, où vous faites le choix de passer par une entreprise, il est peu probable que d'autres solutions soient installées.
 
-## Calcul de l'amortissement
+## Calcul de l'amortissement<a name="Calcul%20de%20l'amortissement"></a>
 
 Il est difficile de calculer l'amortissement d'une installation photovoltaïques.
 Cela va dépendre de la production de votre installation, de votre consommation, du prix de l'installation, du prix de l'électricité...
 
 Compter toutefois entre 7 et 10 ans pour amortir une installation réalisée par un professionnel.
 
-## Lire un devis
+## Lire un devis<a name="Lire%20un%20devis"></a>
 
-### Exemple devis 1
+### Exemple devis 1<a name="Exemple%20devis%201"></a>
 
 Voici le devis :
 
@@ -354,7 +356,7 @@ Dans le cas, présent, il faudrait donc installer que 6 panneaux.
 
 Pour ce qui est de la solution Smart-R de Systovi, dans le cas où il n'y a pas de batterie, j'ai l'impression que c'est l'ECU-C d'AP Systems qui est vendu environ 300€.
 
-### Exemple devis 2
+### Exemple devis 2<a name="Exemple%20devis%202"></a>
 
 Voici le devis :
 
@@ -370,7 +372,7 @@ Les panneaux fullblack sont plus cher, il y a moyen de gagner un peu sur cette p
 
 Sinon, le reste est tout à fait correct.
 
-## Pièges à éviter
+## Pièges à éviter<a name="Pi%C3%A8ges%20%C3%A0%20%C3%A9viter"></a>
 
 Le solaire peut-être très intéressant.
 Mais attention aux belles promesses auxquelles il est facile de céder.
@@ -392,7 +394,7 @@ Avant de signer le devis, vous pouvez demander l'avis sur des forums comme celui
 Vous pouvez aussi comparer le devis via la simulation sur le site [ÉVALUER MON DEVIS PHOTOVOLTAIQUE.INFO](https://evaluer-mon-devis.photovoltaique.info)
 conseillé par l'UFC Que Choisir.
 
-# Kit photovoltaïque
+# Kit photovoltaïque<a name="Kit%20photovolta%C3%AFque"></a>
 
 Les kit photovoltaïque ont l'avantage d'être simple à installer puisqu'ils sont simplement à brancher sur une prise électrique.
 
@@ -400,7 +402,7 @@ Comme vu dans la section [Points administratif à connaitre dans tous les cas](p
 
 Il faudra, bien sélectionner le fait que c'est un kit solaire et donc sans création de nouvelle ligne (passage du Consuel inutile, voir **Réaliser soi même une installation**).
 
-# Réaliser soi-même une installation
+# Réaliser soi-même une installation<a name="R%C3%A9aliser%20soi-m%C3%AAme%20une%20installation"></a>
 
 Avant de vous lancer dans la réalisation, il est important d'avoir des notions de bases.
 
@@ -408,9 +410,9 @@ Il est nécessaire de connaître quelques équations rencontrees en électricit�
 * P=UxIxK : La puissance résulte de la multiplication de la tension et de l'intensité. La constance K dépend du contexte, elle vaut 1 en continue
 * U=KxI : La tension a une relation de proportionnalité avec I. Si I varie, U varie. Si U varie, I varie.
 
-## Normes
+## Normes<a name="Normes"></a>
 
-### NF C-15 100
+### NF C-15 100<a name="NF%20C-15%20100"></a>
 
 La norme NF C-15 100 définit les règles de conception, de réalisation et d'entretien des installations électriques basse tension (400 ou 230 volts) en France.
 C'est la norme à appliquer en France dans les habitations.
@@ -422,15 +424,15 @@ La norme fait plus de 500 pages et couvre de très nombreux aspects.
 
 Suivant le type d'installation, plus au moins de connaissances de cette norme seront nécessaires.
 
-### UTE C-15 712
+### UTE C-15 712<a name="UTE%20C-15%20712"></a>
 
 L'UTE C-15 712 est une précision de la norme NF C-15 100 pour les installations photovoltaïque.
 
 L'Union technique de l'électricité (UTE) était chargée des normes électriques de 1907 à 2019 avant de fusionner avec l'AFNOR.
 
-## Rappel des bases électriques
+## Rappel des bases électriques<a name="Rappel%20des%20bases%20%C3%A9lectriques"></a>
 
-### Qu'est-ce que l'électricité ?
+### Qu'est-ce que l'électricité ?<a name="Qu'est-ce%20que%20l'%C3%A9lectricit%C3%A9%20%3F"></a>
 
 La question peut sembler évidente, mais qu'est-ce que l'électricité ?
 Comment la fabrique-t-on ?
@@ -482,7 +484,7 @@ I l existe différents moyens pour cela :
 * pour les centrales hydro-électriques c'est un procédé magnétique.
 * pour le solaire, c'est un photon qui vient percuter un électron et qui le faire _sauter_ d'un atome à un autre et produit ainsi du courant.
 
-### Alternatif ou continu ?
+### Alternatif ou continu ?<a name="Alternatif%20ou%20continu%20%3F"></a>
 
 Le courant continue voit ses électrons aller toujours dans le même sens.
 Un peu à l'image d'un robinet d'eau.
@@ -498,17 +500,17 @@ C'est le mouvement de l'eau qui lui peut s'arrêter.
 
 ![Electricité continue](./images/electricite-alternative.png)
 
-### Le courant
+### Le courant<a name="Le%20courant"></a>
 
 En électricité le courant (ou intensité), s'exprime en Ampère (A).
 Cela correspond à un flux d'électrons dans un conducteur (fil électrique).
 
-### La tension
+### La tension<a name="La%20tension"></a>
 
 En électricité la tension (ou différence de potentiel), s'exprime en Volt (V).
 Cela correspond à la différence d'électrons présent entre deux zones (ici deux fils).
 
-### Est-ce la tension ou le courant qui est le plus dangereux ?
+### Est-ce la tension ou le courant qui est le plus dangereux ?<a name="Est-ce%20la%20tension%20ou%20le%20courant%20qui%20est%20le%20plus%20dangereux%20%3F"></a>
 
 Pour essayer de visualiser concrètement ce à quoi cela pourrait correspondre à notre échelle, imaginez une personne B qui se positionne collée à une autre A.
 Les deux personnes ont une grande surface en contact.
@@ -527,7 +529,7 @@ Pourtant la vitesse est élevée (la différence de potentiel), les conséquence
 
 Ce phénomène se produit dans l'espace où une poussière qui gravite à 36 000 Km/h peut faire un trou de plusieurs centimètres carrés dans un satellite.
 
-### Tension de sécurité
+### Tension de sécurité<a name="Tension%20de%20s%C3%A9curit%C3%A9"></a>
 
 La norme NF C-15 100 indique que la tension de contact en milieu sec ne doit pas dépasser 50V en alternatif (50Hz, car oui la fréquence aussi à son importance) et 75V en continu.
 
@@ -550,7 +552,7 @@ Zones de danger du courant électrique alternatif (50 Hz) en fonction de l’int
 * AC3 : contraction musculaire réversible.
 * AC4 : risque de fibrillation cardiaque (courbe 1 : <5 %, courbe 2 : 5 %<50 %, courbe 3 : >50 %).
 
-### Neutre, phase, terre
+### Neutre, phase, terre<a name="Neutre%2C%20phase%2C%20terre"></a>
 
 Si on regarde une prise électrique en France, on remarque qu'il y a un renfoncement, deux trous ronds et une tige qui sort.
 
@@ -565,7 +567,7 @@ Mais qu'est-ce que la phase, le neutre et la terre ?
 
 Pour répondre à cette question, rendez-vous dans le section suivante.
 
-### Produisons de l'électricité en toute sécurité
+### Produisons de l'électricité en toute sécurité<a name="Produisons%20de%20l'%C3%A9lectricit%C3%A9%20en%20toute%20s%C3%A9curit%C3%A9"></a>
 
 Nous allons parler de la production hydro-électrique.
 Le principe de fonctionnement est le même avec de l'électricité produit par le nucléaire, le gaz, le fioul, le bois...
@@ -639,7 +641,7 @@ Car le courant qui passe par une phase doit repasser par le neutre.
 S'il y a une différence, c'est qu'il y a un problème.
 Voilà à quoi sert les interrupteurs différentiels 30mA et le disjoncteur différentiel de branchement 500mA.
 
-### Monophasé et triphasé
+### Monophasé et triphasé<a name="Monophas%C3%A9%20et%20triphas%C3%A9"></a>
 
 Qu'est-ce que le triphasé et le monophasé ?
 
@@ -658,7 +660,7 @@ Donc, avec une tension plus élevée, on peut avoir plus de puissance.
 
 Mais, généralement, on réserve le triphasé pour des cas précis car, sans rentrer dans le détail, il est plus difficile de mettre en œuvre le triphasé dans une habitation.
 
-## Étude de cas
+## Étude de cas<a name="%C3%89tude%20de%20cas"></a>
 
 Vous avez tout compris aux chapitres précédents ?
 Alors vous avez certainement les connaissances nécessaires pour réaliser vous même une installation solaire.
@@ -669,7 +671,7 @@ nous allons étudier un cas.
 Le but du propriétaire est de réduire un peu sa facture électrique.
 Il veut au moins effacer son talon de consommation, c'est à dire la consommation de la maison lorsqu'il n'y a personne.
 
-### Étude du solaire et de sa direction
+### Étude du solaire et de sa direction<a name="%C3%89tude%20du%20solaire%20et%20de%20sa%20direction"></a>
 
 Voici la maison vue du ciel :
 
@@ -715,7 +717,7 @@ Maintenant que nous savons le nombre de panneaux et de micro-onduleurs, nous all
 
 ![Implantation panneaux solaires](./images/vue-satellite-maison-avec-panneaux.jpg)
 
-### Remplir une demande préalable de travaux
+### Remplir une demande préalable de travaux<a name="Remplir%20une%20demande%20pr%C3%A9alable%20de%20travaux"></a>
 
 Maintenant que nous savons où mettre les panneaux solaires (les rectangles noirs sur la photo précédente), nous pouvons remplir le déclaration préalable de travaux.
 La mairie à 2 mois pour répondre.
@@ -759,7 +761,7 @@ Imaginez que la personne qui reçoit le dossier soit dans une bulle étanche.
 ![Déclaration préalable 7](./images/dp-7.jpg)
 
 
-#### Annexe DP1
+#### Annexe DP1<a name="Annexe%20DP1"></a>
 
 Grâce au site [du cadastre](https://cadastre.data.gouv.fr), nous pouvons afficher à l'échelle 1:2000 l'habitation dans son environnement avec le numéro de la parcelle et une rose des vents.
 
@@ -767,23 +769,69 @@ Grâce au site [du cadastre](https://cadastre.data.gouv.fr), nous pouvons affich
 
 ![Annexe DP1 - 2](./images/dp-1-plan-situation-2.jpg)
 
-#### Annexe DP4
+#### Annexe DP4<a name="Annexe%20DP4"></a>
 
 ![Annexe DP4](./images/dp-4-plan-de-toiture.jpg)
 
-#### Annexe DP6
+#### Annexe DP6<a name="Annexe%20DP6"></a>
 
 Pour cet annexe, il faudra prendre l'habitation en photo et faire un montage pour permettre de visualiser le rendu final, lorsque les panneaux solaires seront installés.
 
-#### Annexe DP7
+#### Annexe DP7<a name="Annexe%20DP7"></a>
 
 Pour cet annexe, il faut prendre l'habitation en photo à 2-3 mètres du terrain et faire un montage pour permettre de visualiser le rendu final, lorsque les panneaux solaires seront installés
 
-#### Annexe DP8
+#### Annexe DP8<a name="Annexe%20DP8"></a>
 
 Pour cette annexe, il faut prendre l'habitation en photo depuis un point éloigné, par exemple au bout de la rue et faire un montage pour permettre de visualiser le rendu final, lorsque les panneaux solaires seront installés
 
-### Remplir la demande Consuel
+### Calcul de section et protection nécessaire<a name="Calcul%20de%20section%20et%20protection%20n%C3%A9cessaire"></a>
+
+Maintenant que nous savons où installer nos panneaux solaires, il est nécessaire de déterminer la section de câble qu'il doit être utilisé entre le tableau électrique
+et les panneaux solaires.
+
+Cela se fait au moyen de la formule suivante :
+```
+NB_PHASE: Nombre de phase
+P_S_ONDULEUR: Puissance maximum en sortie onduleur (VA)
+PCT_PERTE: 1% (NF C-15 100 tolère 3% maximum)
+DISTANCE: Distance en mètre entre le tableau de raccordement et les panneaux solaires
+
+Résistivité_Cuivre: voir tableau
+
+Intensité = P_S_ONDULEUR / (230 * NB_PHASE)
+Section_par_conducteur = (DISTANCE * R_Résistivité_Cuivre * Intensité) / (PCT_PERTE * 230)
+```
+
+| Section    |    2.5 |      4 |      6 |     10 |     16 |     25 |     35 |     50 |     70 |
+|------------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| Résistance | 0.0205 | 0.0204 | 0.0203 | 0.0191 | 0.0198 | 0.0199 | 0.0198 | 0.0197 | 0.0194 |
+
+
+En triphasé, on prend directement la valeur Section_par_conducteur.
+
+En monophasé, on prend la valeur Section_par_conducteur * 2.
+
+Nous sommes en monophasé, avec 5 mètres de câble entre le tableau électrique et les panneaux solaires. Nous avons 6 panneaux solaires, donc 6 micro-onduleurs.
+Cela nous donne :
+
+```
+NB_PHASE: 1
+P_S_ONDULEUR: 325 * 6 (car 6 onduleurs)
+PCT_PERTE: 1%
+DISTANCE: 5
+
+Intensité = 325*6 / (230 * 1) => 8.47
+Section_par_conducteur = (5 * 0.0205 * 8.47) / (0.01 * 230)
+```
+
+La section par conducteur est de 0.37mm², que nous multiplions par 2. Toutefois, la NF C-15 100 impose une section minimum de 1.5mm².
+Les onduleurs sont livrés avec des câbles de 2.5mm², nous allons garder cette section et mettre un disjoncteur de 10A.
+
+Le câble allant vers les panneaux solaires doit aussi être protégé contre les fuites de courant. Pour cela, il faut installer un interrupteur différentiel 30mA.
+Du fait que le courant circulant entre les panneaux solaires et le tableau soit alternatif et qu'il n'y a pas de consommation de courant à composante continue, un type AC est suffisant.
+
+### Remplir la demande Consuel<a name="Remplir%20la%20demande%20Consuel"></a>
 
 Puisque vous réalisez vous même l'installation des panneaux photovoltaïque et que pour cela, il est nécessaire de modifier l'installation électrique de l'habitation, vous devez faire valider l'installation par le Consuel, seul organisme agréé par l'État pour cette tâche.
 
@@ -846,7 +894,7 @@ Une fois tout rempli, sur le site, voici l'écran à remplir :
 
 ![Dossier consuel internet](./images/consuel-9.jpg)
 
-#### Étiquetage
+#### Étiquetage<a name="%C3%89tiquetage"></a>
 
 Disjoncteur de branchement (le 500mA) :
 
@@ -865,7 +913,7 @@ Vous devez utiliser les planches vendues pour les onduleurs centraux.
 
 Le Consuel rapport que 36% des installations visitées en 2020 ont un défaut de signalisation !
 
-### Remplir une demande CACSI (Convention d'Autoconsommation Sans Injection)
+### Remplir une demande CACSI (Convention d'Autoconsommation Sans Injection)<a name="Remplir%20une%20demande%20CACSI%20(Convention%20d'Autoconsommation%20Sans%20Injection)"></a>
 
 Une fois votre installation terminée et validée par le Consuel, il vous faut signer une convention avec Enedis (ou votre gestionnaire local).
 Dans le cas d'Enedis, rendez-vous sur le [portail de raccordement](https://connect-racco.enedis.fr) et créez-vous un compte.
@@ -922,7 +970,7 @@ Dans la partie autres documents, joignez l'attestation EN 50549 (VFR2019) car si
 Vous vous dites que c'est étrange puisque cette attestation est obligatoire pour l'attestation Consuel.
 Attestation Consuel qui est obligatoire pour faire la demande de CACSI...
 
-## Consommation du surplus de production
+## Consommation du surplus de production<a name="Consommation%20du%20surplus%20de%20production"></a>
 
 Comme évoqué dans la section **Mon installation solaire par un professionnel**, d'autres entreprises proposent des produits qui permettent de consommer le surplus d'électricité.
 Ces solutions sont moins chers que Fronius et MyEnergi.
@@ -930,4 +978,29 @@ Ces solutions sont moins chers que Fronius et MyEnergi.
 Veillez à bien à vérifier la conformité de ce type de matériel avec la réglementation électrique (perturbation électrique...).
 
 Des projets sur internet proposent de faire la même chose à un prix encore plus bas.
+
+# Entretenir ses panneaux-solaires<a name="Entretenir%20ses%20panneaux-solaires"></a>
+
+Les panneaux solaires fonctionnant avec la luminosité du soleil,
+tout ce qui réduit cette luminosité doit être évité.
+
+L'ombre paraît évident, nous en avons déjà parlé, mais la saleté, les épines de pins, les pétales de fleurs, la mousse, le sable du Sahara...
+Tout ce qui peut se fixer aux panneaux solaires et réduire l'ensoleillement va devoir faire l'objet d'une attention particulière.
+
+Il est donc conseillé de nettoyer régulièrement ses panneaux solaires.
+La fréquence dépendra de l'emplacement et de la saleté.
+
+Il faut bien calculer la fréquence de nettoyage.
+Si vous avez une maison à deux étages et que les panneaux sont sur le toit de la maison, il sera préférable de faire le nettoyage par quelqu'un qui a le matériel et les compétences pour monter sur un toit si haut.
+
+Ce nettoyage aura un coût.
+Si les panneaux solaires se salissent peu, il faut attendre que la baisse de rendement atteigne le coût de la prestation pour équilibrer le budget.
+En général, une à deux fois par an est suffisant.
+
+Si vous effectuez le nettoyage par vous même, utilisez de l'eau (si la saleté reste, ajoutez un peu de liquide vaisselle).
+L'eau du robinet en séchant va laisser des traces.
+Soit il faut utiliser de l'eau déminéralisée (mais suivant le nombre de panneaux, le coût devient significatif), soit de l'eau de pluie, soit essuyer l'eau avec un chiffon doux ou micro fibre.
+
+Faîtes attention à éviter de nettoyer la surface des panneaux avec des brosses ou tout ce qui pourrait rayer le verre du panneau solaire.
+Les rayures vont changer l'angle d'arrivée sur les cellules photo-électrique et vous perdrez un peu en rendement.
 
