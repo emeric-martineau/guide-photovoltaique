@@ -3,6 +3,7 @@
 Avant de vous lancer dans la réalisation, il est important d'avoir des notions de bases.
 
 Il est nécessaire de connaître quelques équations rencontrees en électricité :
+
 * P=UxIxK : La puissance résulte de la multiplication de la tension et de l'intensité. La constance K dépend du contexte, elle vaut 1 en continue
 * U=KxI : La tension a une relation de proportionnalité avec I. Si I varie, U varie. Si U varie, I varie.
 
@@ -75,7 +76,8 @@ Une chose intéressante à savoir, c'est que lorsque un électron se déplace, i
 Nous verrons plus loin que ce phénomène est extrêmement intéressant.
 
 Comment alors déplace-t-on des électrons ?
-I l existe différents moyens pour cela :
+Il existe différents moyens pour cela :
+
 * pour fabriquer des piles, c'est un procédé chimique.
 * pour les centrales hydro-électriques c'est un procédé magnétique.
 * pour le solaire, c'est un photon qui vient percuter un électron et qui le faire _sauter_ d'un atome à un autre et produit ainsi du courant.
@@ -143,6 +145,7 @@ Exemple d'un tableau :
 ![Risque électrique suivant intensite et durée](images/risque-electrique-suivant-intensite-et-duree.png)
 
 Zones de danger du courant électrique alternatif (50 Hz) en fonction de l’intensité (A) et du temps (s). © Cmglee, Wikipedia
+
 * AC1 : non perceptible.
 * AC2 : limite de perceptibilité.
 * AC3 : contraction musculaire réversible.

@@ -12,7 +12,7 @@ Il faut donc consommer immédiatement l'électricité produite.
 
 Cela signifie que lorsque vous ou une entreprise conçoit une installation, c'est la consommation instantanée qui va servir de base et non la consommation globale (annuelle, mensuelle).
 
-Afin de bien visualiser votre consommation, je vous recommande d'activer le relevé par demi-heure au près de votre distributeur.
+Afin de bien visualiser votre consommation, je vous recommande d'activer le relevé par demi-heure auprès de votre distributeur.
 Dans le cas d'Enedis, créez-vous un compte [sur leur site internet](https://www.enedis.fr) et activer l'option.
 
 Gardez bien à l'esprit que les panneaux solaires produisent en journée. Il faudra donc décaler certains usages. Par exemple, lancer une machine de linge une journée de forte production.
