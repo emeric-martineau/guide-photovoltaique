@@ -7,7 +7,9 @@ Pour des raisons de lisibilités, nous resterons très généralistes.
 ## Fonctionnement des panneaux solaires
 
 Les panneaux solaires sont constitués de deux matériaux différents.
-Les caractéristiques font que lorsque la lumière (la lumière est une sorte de matière) vient _frapper_ le panneaux solaire, il y a de l'électricité produite.
+Les caractéristiques font que lorsque la lumière (pour comprendre correctement ce phénomène, la chaîne Youtube ScienceEtonnant, y consacre un
+excellent épisode **Les photons existent-ils ?** : https://www.youtube.com/watch?v=mfhfSRjzlvc) vient _frapper_ le panneaux solaire,
+il y a de l'électricité produite.
 On peut imaginer que la lumière est une sorte de pierre qui est lancée sur le panneau solaire.
 Plus la pierre (la lumière) frappe le panneau solaire à angle droit, plus la force de l'impact est fort et plus de d'électricité est produite.
 C'est ce qu'on nomme l'orientation du panneau solaire.
@@ -45,7 +47,7 @@ les cellules bien exposées produisent 9V et la cellule ombragée produit 1.5V.
 En électricité, c'est la tension (9V) qui va _s'imposer_.
 Cela signifie que la pile 1.5V va se retrouver un peu dans la situation d'une pile en train d'être rechargée.
 
-Dans la mesure où les cellules photovoltaïques ne sont pas faites pour être rechargées, les cellules vont s'échauffer et il y a risque d'incendie.
+Dans la mesure où les cellules photovoltaïques ne sont pas faites pour être rechargées, les cellules vont s'échauffer et il y a un risque d'incendie.
 
 Pour éviter ce phénomène, un composant appelé diode bypass est installé.
 Son but, est de court-circuiter la cellule (représentée dans l'exemple précédent par la pile 1.5V) et faire comme s'il n'y avait pas de cellule.
@@ -59,7 +61,7 @@ La diode de bypass en rouge permet de court-circuiter une partie du panneau sola
 
 ## Onduleur central et micro-onduleur
 
-Ces appareils sont chargés de transformer l'électricité dite continue qui sort du panneau solaire en électricité dite alternative.
+Les onduleurs centraux et micro-onduleurs sont chargés de transformer l'électricité dite continue qui sort du panneau solaire en électricité dite alternative.
 
 Jusqu'en 2008, la solution consistait à connecter les panneaux les uns aux autres afin d'avoir une électricité élevée et de brancher le tout à un seul onduleur (onduleur central).
 Cet onduleur injectait l'électricité convertie sur le réseau de la maison.
@@ -72,8 +74,8 @@ C'est plus compliqué que cela.
 
 A partir de 2008, une autre solution est apparue consistant à mettre un petit onduleur, qu'on appelle micro-onduleur, à chaque panneaux solaires et ce sont ces micro-onduleurs qui sont reliés les un aux autres.
 
-Avec ces micro-onduleurs, on peut installer une passerelle qui permet de contrôler l'état des micro-onduleurs, leur production...
-Ces passerelles sont optionnelles et suivant la taille de l'installation, cela permet de gagner quelques centaines d'euro.
+Avec ces micro-onduleurs, on peut installer une passerelle qui permet de contrôler l'état des micro-onduleurs, leurs productions...
+Ces passerelles sont optionnelles et suivant la taille de l'installation, cela permet de gagner quelques centaines d'euros si on s'abstient de l'installer.
 
 ![Micro-onduleur](./images/micro-onduleur.png)
 
