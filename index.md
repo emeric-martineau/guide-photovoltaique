@@ -72,7 +72,7 @@ C'est un guide qui a pour but de donner quelques clefs ou directions pour lancer
 Il a fallu faire des choix tant pour faciliter les explications que pour amener le lecteur progressivement dans le sujet.
 
 J'ai donc pris le parti d'orienter la présentation dans le cas d'un propriétaire de maison, dans une assez grande ville.
-De ce fait, j'ai laissé de côté le système de batteries ainsi l'autonomie totale.
+De ce fait, j'ai laissé de côté le système de batteries ainsi que le sujet de l'autonomie totale en électricité.
 J'ai aussi fait le choix de présenter la solution la plus simple à mettre en œuvre, celle avec micro-onduleur car pour une première installation, il y a déjà beaucoup à apprendre et comprendre.
 
 Aussi, après lecture de ce guide, il vous faudra certainement creuser le sujet sur des forums comme le [Forum photovoltaïque](https://forum-photovoltaique.fr).
@@ -88,11 +88,13 @@ Ce document est licencié sous Attribution-NonCommercial-ShareAlike 4.0 Internat
 Vous pouvez avoir une copie de cette licence sur http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 Vous êtes autorisé à :
+
  * Partager — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats
  * Adapter — remixer, transformer et créer à partir du matériel
  * L'Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.
 
 Selon les conditions suivantes :
+
  * Attribution — Vous devez créditer l'œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées à l'œuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l'Offrant vous soutient ou soutient la façon dont vous avez utilisé son œuvre.
  * Pas d'Utilisation Commerciale — Vous n'êtes pas autorisé à faire un usage commercial de cette œuvre, tout ou partie du matériel la composant.
  * Partage dans les Mêmes Conditions — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'œuvre originale, vous devez diffuser l'œuvre modifiée dans les même conditions, c'est à dire avec la même licence avec laquelle l'œuvre originale a été diffusée.
@@ -165,7 +167,9 @@ Pour des raisons de lisibilités, nous resterons très généralistes.
 ## Fonctionnement des panneaux solaires<a name="Fonctionnement%20des%20panneaux%20solaires"></a>
 
 Les panneaux solaires sont constitués de deux matériaux différents.
-Les caractéristiques font que lorsque la lumière (la lumière est une sorte de matière) vient _frapper_ le panneaux solaire, il y a de l'électricité produite.
+Les caractéristiques font que lorsque la lumière (pour comprendre correctement ce phénomène, la chaîne Youtube ScienceEtonnant, y consacre un
+excellent épisode **Les photons existent-ils ?** : https://www.youtube.com/watch?v=mfhfSRjzlvc) vient _frapper_ le panneaux solaire,
+il y a de l'électricité produite.
 On peut imaginer que la lumière est une sorte de pierre qui est lancée sur le panneau solaire.
 Plus la pierre (la lumière) frappe le panneau solaire à angle droit, plus la force de l'impact est fort et plus de d'électricité est produite.
 C'est ce qu'on nomme l'orientation du panneau solaire.
@@ -203,7 +207,7 @@ les cellules bien exposées produisent 9V et la cellule ombragée produit 1.5V.
 En électricité, c'est la tension (9V) qui va _s'imposer_.
 Cela signifie que la pile 1.5V va se retrouver un peu dans la situation d'une pile en train d'être rechargée.
 
-Dans la mesure où les cellules photovoltaïques ne sont pas faites pour être rechargées, les cellules vont s'échauffer et il y a risque d'incendie.
+Dans la mesure où les cellules photovoltaïques ne sont pas faites pour être rechargées, les cellules vont s'échauffer et il y a un risque d'incendie.
 
 Pour éviter ce phénomène, un composant appelé diode bypass est installé.
 Son but, est de court-circuiter la cellule (représentée dans l'exemple précédent par la pile 1.5V) et faire comme s'il n'y avait pas de cellule.
@@ -217,7 +221,7 @@ La diode de bypass en rouge permet de court-circuiter une partie du panneau sola
 
 ## Onduleur central et micro-onduleur<a name="Onduleur%20central%20et%20micro-onduleur"></a>
 
-Ces appareils sont chargés de transformer l'électricité dite continue qui sort du panneau solaire en électricité dite alternative.
+Les onduleurs centraux et micro-onduleurs sont chargés de transformer l'électricité dite continue qui sort du panneau solaire en électricité dite alternative.
 
 Jusqu'en 2008, la solution consistait à connecter les panneaux les uns aux autres afin d'avoir une électricité élevée et de brancher le tout à un seul onduleur (onduleur central).
 Cet onduleur injectait l'électricité convertie sur le réseau de la maison.
@@ -230,8 +234,8 @@ C'est plus compliqué que cela.
 
 A partir de 2008, une autre solution est apparue consistant à mettre un petit onduleur, qu'on appelle micro-onduleur, à chaque panneaux solaires et ce sont ces micro-onduleurs qui sont reliés les un aux autres.
 
-Avec ces micro-onduleurs, on peut installer une passerelle qui permet de contrôler l'état des micro-onduleurs, leur production...
-Ces passerelles sont optionnelles et suivant la taille de l'installation, cela permet de gagner quelques centaines d'euro.
+Avec ces micro-onduleurs, on peut installer une passerelle qui permet de contrôler l'état des micro-onduleurs, leurs productions...
+Ces passerelles sont optionnelles et suivant la taille de l'installation, cela permet de gagner quelques centaines d'euros si on s'abstient de l'installer.
 
 ![Micro-onduleur](./images/micro-onduleur.png)
 
@@ -256,7 +260,7 @@ Il faut donc consommer immédiatement l'électricité produite.
 
 Cela signifie que lorsque vous ou une entreprise conçoit une installation, c'est la consommation instantanée qui va servir de base et non la consommation globale (annuelle, mensuelle).
 
-Afin de bien visualiser votre consommation, je vous recommande d'activer le relevé par demi-heure au près de votre distributeur.
+Afin de bien visualiser votre consommation, je vous recommande d'activer le relevé par demi-heure auprès de votre distributeur.
 Dans le cas d'Enedis, créez-vous un compte [sur leur site internet](https://www.enedis.fr) et activer l'option.
 
 Gardez bien à l'esprit que les panneaux solaires produisent en journée. Il faudra donc décaler certains usages. Par exemple, lancer une machine de linge une journée de forte production.
@@ -289,7 +293,8 @@ Afin de connaitre les associations de consommateur, vous pouvez vous rendre sur 
 
 ## Aide de l'Etat<a name="Aide%20de%20l'Etat"></a>
 
-Afin de connaître les aides de l'état, le plus sûr est d'aller consulter le site du gouvernement https://www.economie.gouv.fr/particuliers/aides-installation-photovoltaiques.
+Afin de connaître les aides de l'état, le plus sûr est d'aller consulter le site du gouvernement
+https://www.economie.gouv.fr/particuliers/aides-installation-photovoltaiques.
 Vous pouvez aussi demander aux associations de consommateurs citées précédemment, vous éviterez des arnaques.
 
 Il y a donc des aides en fonction de la puissance de votre installation photovoltaïque et de vos revenus.
@@ -471,6 +476,7 @@ Il est impossible qu'en produisant de l'électricité, on augmente sa dépendanc
 Avant de vous lancer dans la réalisation, il est important d'avoir des notions de bases.
 
 Il est nécessaire de connaître quelques équations rencontrees en électricité :
+
 * P=UxIxK : La puissance résulte de la multiplication de la tension et de l'intensité. La constance K dépend du contexte, elle vaut 1 en continue
 * U=KxI : La tension a une relation de proportionnalité avec I. Si I varie, U varie. Si U varie, I varie.
 
@@ -543,7 +549,8 @@ Une chose intéressante à savoir, c'est que lorsque un électron se déplace, i
 Nous verrons plus loin que ce phénomène est extrêmement intéressant.
 
 Comment alors déplace-t-on des électrons ?
-I l existe différents moyens pour cela :
+Il existe différents moyens pour cela :
+
 * pour fabriquer des piles, c'est un procédé chimique.
 * pour les centrales hydro-électriques c'est un procédé magnétique.
 * pour le solaire, c'est un photon qui vient percuter un électron et qui le faire _sauter_ d'un atome à un autre et produit ainsi du courant.
@@ -611,6 +618,7 @@ Exemple d'un tableau :
 ![Risque électrique suivant intensite et durée](images/risque-electrique-suivant-intensite-et-duree.png)
 
 Zones de danger du courant électrique alternatif (50 Hz) en fonction de l’intensité (A) et du temps (s). © Cmglee, Wikipedia
+
 * AC1 : non perceptible.
 * AC2 : limite de perceptibilité.
 * AC3 : contraction musculaire réversible.
