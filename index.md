@@ -24,7 +24,13 @@
     * [Exemple devis 1](#Exemple%20devis%201)
     * [Exemple devis 2](#Exemple%20devis%202)
   * [Pièges à éviter](#Pi%C3%A8ges%20%C3%A0%20%C3%A9viter)
-* [Kit photovoltaïque](#Kit%20photovolta%C3%AFque)
+* [Kit photovoltaïque à brancher](#Kit%20photovolta%C3%AFque%20%C3%A0%20brancher)
+  * [Les inconvénients, faux, qu'on peut nous dire](#Les%20inconv%C3%A9nients%2C%20faux%2C%20qu'on%20peut%20nous%20dire)
+    * [Production d'électricité limitée](#Production%20d'%C3%A9lectricit%C3%A9%20limit%C3%A9e)
+    * [Certains facteurs font varier leur efficacité](#Certains%20facteurs%20font%20varier%20leur%20efficacit%C3%A9)
+    * [Impossibilité de revendre le surplus d'électricité](#Impossibilit%C3%A9%20de%20revendre%20le%20surplus%20d'%C3%A9lectricit%C3%A9)
+    * [Les risques de surcharge électrique](#Les%20risques%20de%20surcharge%20%C3%A9lectrique)
+    * [Augmentation de la dépendance au réseau électrique](#Augmentation%20de%20la%20d%C3%A9pendance%20au%20r%C3%A9seau%20%C3%A9lectrique)
 * [Réaliser soi-même une installation](#R%C3%A9aliser%20soi-m%C3%AAme%20une%20installation)
   * [Normes](#Normes)
     * [NF C-15 100](#NF%20C-15%20100)
@@ -394,13 +400,71 @@ Avant de signer le devis, vous pouvez demander l'avis sur des forums comme celui
 Vous pouvez aussi comparer le devis via la simulation sur le site [ÉVALUER MON DEVIS PHOTOVOLTAIQUE.INFO](https://evaluer-mon-devis.photovoltaique.info)
 conseillé par l'UFC Que Choisir.
 
-# Kit photovoltaïque<a name="Kit%20photovolta%C3%AFque"></a>
+# Kit photovoltaïque à brancher<a name="Kit%20photovolta%C3%AFque%20%C3%A0%20brancher"></a>
 
-Les kit photovoltaïque ont l'avantage d'être simple à installer puisqu'ils sont simplement à brancher sur une prise électrique.
+Les kits photovoltaïque ont l'avantage d'être simple à installer puisqu'ils sont simplement à brancher sur une prise électrique.
+
+Le but de ces kits prêt à brancher est de permettre aux personnes de s'initier à l'énergie solaire et réduire un peu la facture d'électricité.
 
 Comme vu dans la section [Points administratif à connaitre dans tous les cas](points-administratif-a-connaitre-dans-tous-les-cas.md), si vous posez au sol un kit solaire, la seule démarche à faire, est de créer un compte sur le site d'[Enedis Raccordement](https://connect-racco.enedis.fr) et de remplir la demande d'une CACSI.
 
 Il faudra, bien sélectionner le fait que c'est un kit solaire et donc sans création de nouvelle ligne (passage du Consuel inutile, voir **Réaliser soi même une installation**).
+
+## Les inconvénients, faux, qu'on peut nous dire<a name="Les%20inconv%C3%A9nients%2C%20faux%2C%20qu'on%20peut%20nous%20dire"></a>
+
+Sur internet, des articles parlant des inconvénients des kits photovoltaïques peuvent être lus. Il est intéressant de voir que certains articles sont rédigés par des entreprises qui proposent la pose de système solaire. Est-ce dans l'intérêt de ces entreprises de vanter l'achat de ces kits prêt à l'emploi ?
+
+Voici 3 articles que l'on peut lire sur internet :
+
+* [Les inconvénients des panneaux solaires Plug & Play que les vendeurs oublient souvent de mentionner](https://www.neozone.org/innovation/les-inconvenients-des-panneaux-solaires-plug-play-que-les-vendeurs-oublient-souvent-de-mentionner/), 
+* [Avantages et inconvénients des panneaux solaires plug and play](https://o2toit.fr/nos-actualites/solaire/panneaux-solaires-plug-and-play-une-fausse-bonne-idee/)
+* [Pourquoi les inconvénients des panneaux photovoltaïques Plug and Play doivent-ils être pris au sérieux ?](https://www.solairepro.comparateur-panneau-solaire.fr/pourquoi-les-inconvenients-des-panneaux-photovoltaiques-plug-and-play-doivent-ils-etre-pris-au-serieux/)
+
+Basons-nous sur ces articles afin de faire le point et de constater qu'on peut y trouver des idées aussi originales que surprenantes.
+
+### Production d'électricité limitée<a name="Production%20d'%C3%A9lectricit%C3%A9%20limit%C3%A9e"></a>
+
+Voilà un inconvénient qui n'a factuellement aucun sens.
+
+Les kits sont des petites installations, leur but n'est pas de couvrir 100% des besoins électrique d'un foyer.
+
+### Certains facteurs font varier leur efficacité<a name="Certains%20facteurs%20font%20varier%20leur%20efficacit%C3%A9"></a>
+
+Exactement comme toutes installations solaires, même réalisées par un professionnel.
+
+### Impossibilité de revendre le surplus d'électricité<a name="Impossibilit%C3%A9%20de%20revendre%20le%20surplus%20d'%C3%A9lectricit%C3%A9"></a>
+
+Le but des kits solaires à installer soit même n'est en aucun cas de revendre l'électricité. Alors pourquoi en faire un inconvénient ?
+
+### Les risques de surcharge électrique<a name="Les%20risques%20de%20surcharge%20%C3%A9lectrique"></a>
+
+Voici un nouveau concept :
+```
+ils vont quand même être branchés sur votre compteur, qui doit respecter certaines normes.
+En le branchant vous-même, sauf si vous êtes électricien, vous risquez de provoquer un
+court-circuit, ou une surcharge qui ferait disjoncter votre compteur.
+```
+
+En France, nous avons la chance d'avoir l'une des meilleurs normes électrique au monde.
+
+Tout appareil électrique doit respecter cette norme pour être vendu en France. Sauf à acheter un produit contrefait ou à un appareil défectueux, il n'y a aucun risque.
+
+Parler de court-circuit ou de surcharge est au mieux une ignorance de comment fonctionne les panneaux solaires (et la norme qu'ils doivent respecter en France).
+
+Alors quand on lit cela sur un site d'une entreprise professionnelle dans le photovoltaïque...
+
+### Augmentation de la dépendance au réseau électrique<a name="Augmentation%20de%20la%20d%C3%A9pendance%20au%20r%C3%A9seau%20%C3%A9lectrique"></a>
+
+On peut lire l'argument suivant :
+
+```
+Avec une puissance limitée, les utilisateurs des panneaux photovoltaïques
+Plug and Play pourraient être davantage dépendants du réseau électrique
+traditionnel.
+```
+
+Il est impossible qu'en produisant de l'électricité, on augmente sa dépendance au réseau électrique.
+
 
 # Réaliser soi-même une installation<a name="R%C3%A9aliser%20soi-m%C3%AAme%20une%20installation"></a>
 
