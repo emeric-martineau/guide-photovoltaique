@@ -1,4 +1,9 @@
-# Introduction
+= Introduction
+Emeric Martineau
+:showtitle:
+:page-title: Introduction
+:page-description: Introduction du guide
+:page-layout: index
 
 Lorsque j'ai voulu me lancer dans le photovoltaïque, je ne trouvais pas par quoi commencer.
 J'ai eu la chance de rencontrer des gens qui avaient fait l'installation par eux même, toutefois, il me restait encore de nombreuses questions.
@@ -15,24 +20,22 @@ J'ai aussi fait le choix de présenter la solution la plus simple à mettre en �
 
 Aussi, après lecture de ce guide, il vous faudra certainement creuser le sujet sur des forums comme le [Forum photovoltaïque](https://forum-photovoltaique.fr).
 
-## Où trouver la dernière version de ce document
+== Où trouver la dernière version de ce document
 
 Vous pouvez télécharger la dernière version de ce document à l'adresse suivante https://github.com/emeric-martineau/guide-photovoltaique/releases
 
-## Licence
+== Licence
 
 Ce document est licencié sous Attribution-NonCommercial-ShareAlike 4.0 International © 2024 by Emeric MARTINEAU.
 
 Vous pouvez avoir une copie de cette licence sur http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 Vous êtes autorisé à :
-
- * Partager — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats
- * Adapter — remixer, transformer et créer à partir du matériel
- * L'Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.
+* Partager — copier, distribuer et communiquer le matériel par tous moyens et sous tous formats
+* Adapter — remixer, transformer et créer à partir du matériel
+* L'Offrant ne peut retirer les autorisations concédées par la licence tant que vous appliquez les termes de cette licence.
 
 Selon les conditions suivantes :
-
  * Attribution — Vous devez créditer l'œuvre, intégrer un lien vers la licence et indiquer si des modifications ont été effectuées à l'œuvre. Vous devez indiquer ces informations par tous les moyens raisonnables, sans toutefois suggérer que l'Offrant vous soutient ou soutient la façon dont vous avez utilisé son œuvre.
  * Pas d'Utilisation Commerciale — Vous n'êtes pas autorisé à faire un usage commercial de cette œuvre, tout ou partie du matériel la composant.
  * Partage dans les Mêmes Conditions — Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'œuvre originale, vous devez diffuser l'œuvre modifiée dans les même conditions, c'est à dire avec la même licence avec laquelle l'œuvre originale a été diffusée.

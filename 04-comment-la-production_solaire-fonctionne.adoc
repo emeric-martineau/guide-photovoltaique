@@ -1,10 +1,14 @@
-# Comment la production solaire fonctionne ?
+= Comment la production solaire fonctionne ?
+:showtitle:
+:page-title: Comment la production solaire fonctionne ?
+:page-description: Explication simple du fonctionnement de la création d'électricité à partir du soleil
+:page-layout: page
 
 Dans ce chapitre, nous aborderons les principes de fonctionnement de la production solaire.
 
 Pour des raisons de lisibilités, nous resterons très généralistes.
 
-## Fonctionnement des panneaux solaires
+== Fonctionnement des panneaux solaires
 
 Les panneaux solaires sont constitués de deux matériaux différents.
 Les caractéristiques font que lorsque la lumière (pour comprendre correctement ce phénomène, la chaîne Youtube ScienceEtonnant, y consacre un
@@ -14,9 +18,9 @@ On peut imaginer que la lumière est une sorte de pierre qui est lancée sur le 
 Plus la pierre (la lumière) frappe le panneau solaire à angle droit, plus la force de l'impact est fort et plus de d'électricité est produite.
 C'est ce qu'on nomme l'orientation du panneau solaire.
 
-![Constitution d'un panneau solaire](./images/panneau-solaire-couche.png)
+image:images/panneau-solaire-couche.png[Constitution d'un panneau solaire]
 
-![Fonctionnement panneau solaire](./images/panneau-solaire-fonctionnement.png)
+image:images/panneau-solaire-fonctionnement.png[Fonctionnement panneau solaire]
 
 Cette électricité en sortie du panneau solaire est trop faible pour être utilisée dans une maison et présente une caractéristique qui la rend incompatible avec les appareils branchés sur les prises électriques de la maison.
 
@@ -31,7 +35,7 @@ Gardez toutefois à l'esprit que ces valeurs sont obtenues en laboratoire et qu'
 Le type de cellule a aussi sont importance.
 Actuellement, les panneaux monocristallins sont les plus performantes.
 
-### Diodes by pass
+=== Diodes by pass
 
 Un panneau solaire est en fait composé de deux demi-panneaux, eux même composé de plusieurs cellules photovoltaïques.
 
@@ -57,16 +61,16 @@ Pour optimiser le rendement solaire, d'autres diodes bypass sont installées.
 Dans l'image suivante, à gauche, un panneau solaire sans ombrage, à droite, un panneau solaire ombragé.
 La diode de bypass en rouge permet de court-circuiter une partie du panneau solaire.
 
-![Diode by pass](./images/panneau-solaire-diode-bypasse.png)
+image:images/panneau-solaire-diode-bypasse.png[Diode by pass]
 
-## Onduleur central et micro-onduleur
+== Onduleur central et micro-onduleur
 
 Les onduleurs centraux et micro-onduleurs sont chargés de transformer l'électricité dite continue qui sort du panneau solaire en électricité dite alternative.
 
 Jusqu'en 2008, la solution consistait à connecter les panneaux les uns aux autres afin d'avoir une électricité élevée et de brancher le tout à un seul onduleur (onduleur central).
 Cet onduleur injectait l'électricité convertie sur le réseau de la maison.
 
-![Onduleur central](./images/onduleur-central.png)
+image:images/onduleur-central.png[Onduleur central]
 
 Ce type d'installation est plus sensible à l'ombrage.
 Toutefois, attention à ceux qui exagèrent en disant que si un panneau solaire est à moitié ombragé, alors toute la production est divisée par deux.
@@ -77,7 +81,7 @@ A partir de 2008, une autre solution est apparue consistant à mettre un petit o
 Avec ces micro-onduleurs, on peut installer une passerelle qui permet de contrôler l'état des micro-onduleurs, leurs productions...
 Ces passerelles sont optionnelles et suivant la taille de l'installation, cela permet de gagner quelques centaines d'euros si on s'abstient de l'installer.
 
-![Micro-onduleur](./images/micro-onduleur.png)
+image:images/micro-onduleur.png[Micro-onduleur]
 
 Quels sont les avantages et inconvénients de chaque solution ?
 
