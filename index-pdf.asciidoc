@@ -1,0 +1,14 @@
+= Hello, AsciiDoc!
+Emeric Martineau
+:toc:
+:hide-uri-scheme:
+
+include::01-introduction.adoc[]
+include::02-points-administratifs-a-connaitre-dans-tous-les-cas.adoc[]
+include::03-assurance.adoc[]
+include::04-comment-la-production_solaire-fonctionne.adoc[]
+include::05-bien-definir-son-projet.adoc[]
+include::06-mon-installation-solaire-par-un-professionel.adoc[]
+include::07-kit-photovoltaique.adoc[]
+include::08-realiser-soi-meme-une-installation.adoc[]
+include::09-entretenir-ses-panneaux-solaires.adoc[]
