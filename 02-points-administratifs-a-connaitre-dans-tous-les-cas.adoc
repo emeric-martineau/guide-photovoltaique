@@ -1,8 +1,10 @@
 = Points administratifs à connaître dans tous les cas
+ifndef::book[]
 :showtitle:
 :page-title: Points administratifs à connaître dans tous les cas
 :page-description:Présentation des points administratifs avant de commencer son projet photovoltaïque
 :page-layout: page
+endif::[]
 
 == Installation en surimposition
 

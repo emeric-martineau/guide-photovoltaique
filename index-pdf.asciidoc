@@ -1,14 +1,16 @@
-= Hello, AsciiDoc!
+= Guide sans prétention du photovoltaïque: Un guide permettant de comprendre comment fonctionne le photovoltaïque, les démarches, les devis ou même poser soi-même
 Emeric Martineau
+:toc-title: Table des matières
 :toc:
 :hide-uri-scheme:
+:book: Permet de définir une variable pour désactiver les directives des sous-documents
 
-include::01-introduction.adoc[]
-include::02-points-administratifs-a-connaitre-dans-tous-les-cas.adoc[]
-include::03-assurance.adoc[]
-include::04-comment-la-production_solaire-fonctionne.adoc[]
-include::05-bien-definir-son-projet.adoc[]
-include::06-mon-installation-solaire-par-un-professionel.adoc[]
-include::07-kit-photovoltaique.adoc[]
-include::08-realiser-soi-meme-une-installation.adoc[]
-include::09-entretenir-ses-panneaux-solaires.adoc[]
+include::01-introduction.adoc[leveloffset=+1]
+include::02-points-administratifs-a-connaitre-dans-tous-les-cas.adoc[leveloffset=+1]
+include::03-assurance.adoc[leveloffset=+1]
+include::04-comment-la-production_solaire-fonctionne.adoc[leveloffset=+1]
+include::05-bien-definir-son-projet.adoc[leveloffset=+1]
+include::06-mon-installation-solaire-par-un-professionel.adoc[leveloffset=+1]
+include::07-kit-photovoltaique.adoc[leveloffset=+1]
+include::08-realiser-soi-meme-une-installation.adoc[leveloffset=+1]
+include::09-entretenir-ses-panneaux-solaires.adoc[leveloffset=+1]

@@ -1,8 +1,10 @@
 = Mon installation solaire par un professionnel
+ifndef::book[]
 :showtitle:
 :page-title: Mon installation solaire par un professionnel
 :page-description: Quand passez par un professionnel et que regarder ?
 :page-layout: page
+endif::[]
 
 == Se faire accompagner
 

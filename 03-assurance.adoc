@@ -1,8 +1,10 @@
 = Assurance
+ifndef::book[]
 :showtitle:
 :page-title: Assurance
 :page-description: Quel type d'assurance pour les panneaux photovoltaïque
 :page-layout: page
+endif::[]
 
 Une installation photovoltaïque en autoconsommation ne nécessite rien de particuler.
 Il est quand même conseillé de signaler l'installation à votre assurance.

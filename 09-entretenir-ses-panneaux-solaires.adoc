@@ -1,8 +1,10 @@
 = Entretenir ses panneaux-solaires
+ifndef::book[]
 :showtitle:
 :page-title: Entretenir ses panneaux-solaires
 :page-description: Les panneaux solaires s'entretiennent !
 :page-layout: page
+endif::[]
 
 Les panneaux solaires fonctionnant avec la luminosité du soleil,
 tout ce qui réduit cette luminosité doit être évité.

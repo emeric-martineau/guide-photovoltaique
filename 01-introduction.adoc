@@ -1,9 +1,11 @@
 = Introduction
+ifndef::book[]
 Emeric Martineau
 :showtitle:
 :page-title: Introduction
 :page-description: Introduction du guide
 :page-layout: index
+endif::[]
 
 Lorsque j'ai voulu me lancer dans le photovoltaïque, je ne trouvais pas par quoi commencer.
 J'ai eu la chance de rencontrer des gens qui avaient fait l'installation par eux même, toutefois, il me restait encore de nombreuses questions.

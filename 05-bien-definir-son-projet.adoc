@@ -1,8 +1,10 @@
 = Bien définir son projet
+ifndef::book[]
 :showtitle:
 :page-title: Bien définir son projet
 :page-description: Pour que le projet photovoltaïque vous corresponde
 :page-layout: page
+endif::[]
 
 Il est très important de bien définir son projet.
 En effet, le projet sera totalement différent aussi bien en terme de matériel que de démarche si vous souhaitez essayer la production solaire ou si vous voulez être autonome (et donc ne plus dépendre d'un fournisseur d'énergie).

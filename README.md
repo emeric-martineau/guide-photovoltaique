@@ -43,7 +43,7 @@ I have no name!@4711b393b7a1:/data$
 
 Exécutez le commande suivante dans le container :
 ```
-asciidoctor-pdf --out-file guide-photovoltaique.pdf index-pdf.asciidoc
+asciidoctor-pdf --out-file guide-photovoltaique.pdf -d book index-pdf.asciidoc
 ```
 
 ### Génération du site web

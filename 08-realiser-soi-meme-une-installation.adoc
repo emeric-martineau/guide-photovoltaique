@@ -1,8 +1,10 @@
 = Réaliser soi-même une installation
+ifndef::book[]
 :showtitle:
 :page-title: Réaliser soi-même une installation
 :page-description: Et si on réalisait soit même son installation afin d'en apprendre plus ?
 :page-layout: page
+endif::[]
 
 Avant de vous lancer dans la réalisation, il est important d'avoir des notions de bases.
 

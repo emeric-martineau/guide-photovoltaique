@@ -1,8 +1,10 @@
 = Comment la production solaire fonctionne ?
+ifndef::book[]
 :showtitle:
 :page-title: Comment la production solaire fonctionne ?
 :page-description: Explication simple du fonctionnement de la création d'électricité à partir du soleil
 :page-layout: page
+endif::[]
 
 Dans ce chapitre, nous aborderons les principes de fonctionnement de la production solaire.
 
