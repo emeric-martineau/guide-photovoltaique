@@ -1,12 +1,24 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - guide-photovoltaique.md
-theme: jekyll-theme-cayman
 title: Guide sans prétention du photovoltaïque
-subtitle: 'To update'
 description: Un guide permettant de comprendre comment fonctionne le photovoltaïque, les démarches, les devis ou même poser soi-même
+subtitle: 'To update'
 show_downloads: true
+exclude:
+- LICENSE
+- README.md
+- Gemfile
+- Gemfile.lock
+- Rakefile
+- Dockerfile
+- '*.sh'
+- '*.asciidoc'
+- '*.pdf'
+asciidoc:
+  ext: adoc
+asciidoctor:
+  base_dir: :docdir
+  safe: unsafe
+  attributes:
+    icons: font
+    idseparator: _
+    stylesdir: css
+    source-highlighter: coderay
