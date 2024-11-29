@@ -1,5 +1,5 @@
 = Kit photovoltaïque à brancher
-ifndef::toc-title[]
+ifndef::book[]
 :showtitle:
 :page-title: Kit photovoltaïque à brancher
 :page-description: Que faut-il pour brancher un kit solaire ?
