@@ -12,6 +12,7 @@ exclude:
 - '*.sh'
 - '*.asciidoc'
 - '*.pdf'
+- '*.rb'
 asciidoc:
   ext: adoc
 asciidoctor:
