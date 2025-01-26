@@ -40,8 +40,6 @@ Cas général :
 * Inférieure à 3KW et hauteur supérieure à 1.80m : déclaration préalable de travaux.
 * Jusqu'à 1 000KW: déclaration préalable de travaux.
 
-=== test
-
 Zone protégé :
 * Inférieure à 3kW: déclaration préalable de travaux.
 * Supérieure à 3kW: permis de construire 

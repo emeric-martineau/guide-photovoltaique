@@ -4,6 +4,8 @@ Emeric Martineau
 :toc:
 :hide-uri-scheme:
 :book: Permet de définir une variable pour désactiver les directives des sous-documents
+:revdate: {generated-date}
+:revnumber: {scm-tag}
 
 include::01-introduction.adoc[leveloffset=+1]
 include::02-points-administratifs-a-connaitre-dans-tous-les-cas.adoc[leveloffset=+1]

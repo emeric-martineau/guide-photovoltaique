@@ -1,0 +1,19 @@
+<% if @items.length > 0 %>
+
+<% if is_root %>
+<ul class="sidebar-nav">
+<% end %>
+<% if ! is_root %>
+<ul class="sidebar-link">
+<% end %>
+
+  <% @items.each do |entry| %>
+  <li class="sidebar-item">
+      <a href="#" class="sidebar-link"><span><%= entry.title %></span></a>
+      <% if entry.nb_items > 0 %>
+      <%= parse_items() %>
+      <% end %>
+  </li>
+  <% end %>
+</ul>
+<% end %>
