@@ -27,4 +27,12 @@ bundle exec jekyll build
 
 echo "2 - PDF"
 
-asciidoctor-pdf --out-file guide-photovoltaique.pdf -d book index-pdf.asciidoc
+CURRENT_TAG="$(git describe --tags --abbrev=0)"
+GENERATED_DATE="$(date '+%d/%m/%Y %H:%M:%S')"
+
+asciidoctor-pdf \
+  --out-file guide-photovoltaique.pdf \
+  --doctype book \
+  --attribute "scm-tag=${CURRENT_TAG}" \
+  --attribute "generated-date=${GENERATED_DATE}" \
+  index-pdf.asciidoc
