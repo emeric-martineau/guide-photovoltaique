@@ -57,11 +57,11 @@ Tout appareil électrique doit respecter cette norme pour être vendu en France.
 
 Parler de court-circuit est au mieux une ignorance de comment fonctionne les panneaux solaires (et la norme qu'ils doivent respecter en France).
 
-Alors quand on lit cela sur un site d'une entreprise professionnelle dans le photovoltaïque...
+Alors lire cela sur le site d'une entreprise professionnelle dans le photovoltaïque...
 
 Pour ce qui est de la surcharge, c'est en fait un surintensité qu'il peut se produire dans un cas précis.
 
-TODO
+Afin de tirer au maximum parti de votre kit plug&play, l'Adem (Agence pour le développement de l'emploi) a mis en ligne https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/6258-guide-kit-photovoltaique-autoconsommation-plug-play.html[un guide] explicant les points d'attention. 
 
 === Augmentation de la dépendance au réseau électrique
 
