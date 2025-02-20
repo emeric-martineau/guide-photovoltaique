@@ -2,15 +2,6 @@
 
 FINAL_FILENAME="guide-photovoltaique"
 
-IS_PANDOC_INSTALLED="$(pandoc --version 2>/dev/null | wc -l)"
-IS_PDFLATEX_INSTALLED="$(pdflatex --version 2>/dev/null | wc -l)"
-IS_JQ_INSTALLED="$(jq --version 2>/dev/null | wc -l)"
-
-if [ "${IS_PANDOC_INSTALLED}" -lt 1 ] || [ "${IS_PDFLATEX_INSTALLED}" -lt 1 ] || [ "${IS_JQ_INSTALLED}" -lt 1 ]; then
-  echo "** ERROR **" >&2
-  echo "You must install pandoc and jq" >&2
-fi
-
 echo "1 - Site internet"
 
 echo "  1.1 - Génération de la table de matière"
