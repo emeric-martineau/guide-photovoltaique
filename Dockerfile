@@ -7,11 +7,14 @@ RUN apt update && \
         asciidoctor \
         ruby-full \
         build-essential \
-        zlib1g-dev
+        zlib1g-dev \
+        nodejs \
+        npm    
 
 RUN gem install asciidoctor-pdf
 RUN gem install coderay pygments.rb
 RUN gem install jekyll bundler
+RUN npm install html-minifier -g
 
 RUN echo "#!/usr/bin/env bash" >> /entrypoint.sh
 RUN echo "" >> /entrypoint.sh

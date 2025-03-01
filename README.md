@@ -54,3 +54,23 @@ rm -rf _site
 
 ./generate.sh
 ```
+
+### Minimifier le site
+
+```
+EXT_FILE='js'
+
+html-minifier \
+  --collapse-whitespace \
+  --remove-comments \
+  --remove-optional-tags \
+  --remove-redundant-attributes \
+  --remove-script-type-attributes \
+  --remove-tag-whitespace \
+  --use-short-doctype \
+  --minify-css true \
+  --minify-js true \
+  --file-ext "${EXT_FILE}" \
+  --input-dir _site/ \
+  --output-dir _site2/
+```

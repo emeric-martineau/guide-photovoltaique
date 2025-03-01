@@ -2,8 +2,8 @@
 
 # export RUBYOPT="-KU -E utf-8:utf-8"
 require 'optparse'
-require 'erb'
 require 'logger'
+require 'uri'
 
 # Entry of menu/title
 MenuEntry = Struct.new(:title, :level, :items, :parent)
@@ -134,7 +134,8 @@ def extract_menu_from_one_file(filename)
   find_root_menu(menu)
 end
 
-def debug(data, level)
+# Debug 
+def debug_menu_entry(data, level)
   offset = "  " * level
 
   puts "#{offset}- title:\"#{data.title}\""
@@ -155,12 +156,52 @@ def debug(data, level)
   end
 end
 
+def urlify_preserve_accents(text)
+  text
+    # Remove space at end
+    .strip
+    # Convert to lowercase
+    .downcase
+    # Replace spaces with hyphens
+    .gsub(/(\s|-)+/, '_')
+    # Remove all bad chars
+    .gsub(/['()?:]+/, '')
+    # If two _ or more, just one
+    .gsub(/_{2,}/, '_')
+    # Remove all final _
+    .gsub(/_+$/, '')
+  end
+
+def generate_menu(data, level, filename)
+  offset = "  " * level
+  menu_content = []
+
+  menu_content.push("#{offset}<ul class='sidebar-link'>")
+
+  menu_content.push("#{offset}  <li class='sidebar-item'>")
+
+  tag = urlify_preserve_accents(data.title)
+
+  menu_content.push("#{offset}    <a href='#{filename}\##{tag}' class='sidebar-link'><span>#{data.title}</span></a>")
+
+  if data.items.length > 0
+    data.items.each do |item|
+      menu_content = menu_content + generate_menu(item, level + 3, filename)
+    end
+  end
+
+  menu_content.push("#{offset}  </li>")
+
+  menu_content.push("#{offset}</ul>")
+
+  menu_content
+end
+
 if __FILE__ == $0
   params = {}
 
   OptionParser.new do |opts|
     opts.on('-l', '--log LEVEL', 'Activate log level (debug, info, error)')
-    opts.on('-t', '--template TEMPLATE', String, "Template to use to generate output")
     opts.on('-o', '--output [OUTPUT]', String, "Output filename. If - or missing, stdout is used")
     opts.on('-f', '--file FILE1,FILE2', Array, "Inputs file to read")
     opts.on('-h', '--help', "Print this help") do
@@ -188,8 +229,6 @@ if __FILE__ == $0
 
   if params[:file] == nil
     LOGGER.error("Missing filename in arguments!")
-  elsif params[:template] == nil
-      LOGGER.error("Missing template in arguments!")
   else
     params[:file].each do |file|
       if !File.exist?(file)
@@ -198,32 +237,28 @@ if __FILE__ == $0
     end
 
     all_files_data = []
+    file_menu_content = []
 
     # For each input file
     params[:file].each do |file|
       LOGGER.info("Read '#{file}' file...")
       menu = extract_menu_from_one_file(file)
+      file_menu_content = file_menu_content + generate_menu(menu, 0, file.gsub('.adoc', '.html'))
       all_files_data.push(menu)
     end
 
     if LOGGER.debug?()
-      debug(MenuEntry.new('root', 0, all_files_data, nil), 0)
+      debug_menu_entry(MenuEntry.new('root', 0, all_files_data, nil), 0)
     end
-
-    # Read template file
-    template = File.read(File.expand_path(params[:template]))
-
-    # Create a fake root menu with all menu
-    one_menu = MenuItemErb.new("We don't care", all_files_data, template, 0)
-
-    LOGGER.info("Generate from template file '#{params[:template]}'...")
-
+   
     output = (params[:output] == nil) ? '-' : params[:output]
 
     if output == '-'
-      puts one_menu.parse
+      file_menu_content.each { |element| puts element }
     else
-      File.write(output, one_menu.parse)
+      File.open(output, "w+") do |f| 
+        file_menu_content.each { |element| f.puts(element) } 
+      end
     end
   end
 end

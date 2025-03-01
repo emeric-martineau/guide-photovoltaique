@@ -6,10 +6,14 @@ hamBurger.addEventListener("click", function () {
   var icon = document.querySelector("#menu-btn-icon");
 
   if (icon.classList.contains("bi-list")) {
+    /* Open menu */
     icon.classList.remove("bi-list");
     icon.classList.add("bi-x-lg");
+    document.querySelector("#sidebar-footer").style.display = 'block';
   } else {
+    /* Close menu */
     icon.classList.add("bi-list");
     icon.classList.remove("bi-x-lg");
+    document.querySelector("#sidebar-footer").style.display = 'none';
   }
 });
