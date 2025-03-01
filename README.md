@@ -52,6 +52,5 @@ Exécutez les commandes suivantes dans le container :
 ```
 rm -rf _site
 
-bundle install
-bundle exec jekyll build
+./generate.sh
 ```
