@@ -46,7 +46,7 @@ Zone protégé :
 
 Même exonérés d'autorisation, vos panneaux solaires sont considérés comme de la surface taxable, et implique le paiement d'une taxe d'aménagement.
 
-== CACSI: Convention d'Autoconsommation Sans Injection
+== Convention d'Autoconsommation Sans Injection (CACSI)
 
 Cette convention est signée avec Enedis. Même s'il y a la notion **sans injection**, le **Code de l'énergie**, **Chapitre V : L'autoconsommation**, **Article L315-5** indique que dans le cadre d'une autoconsommation, il est possible de réinjecter gratuitement de l'énergie dans le réseau.
 
